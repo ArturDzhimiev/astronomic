@@ -12,8 +12,7 @@
     "format:check": "prettier --check .",
     "typecheck": "tsc -b --noEmit",
     "test": "vitest run",
-    "test:watch": "vitest",
-    "data:convert": "node scripts/convert-legacy-data.mjs"
+    "test:watch": "vitest"
   },
   "dependencies": {
     "react": "^19.2.8",
