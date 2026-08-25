@@ -1,0 +1,48 @@
+/*
+ * Дизайн-токены. Монохром: белый лист, чёрная краска, серые линии.
+ * Акцент — не цвет, а контраст и разрядка, как в наборе логотипа.
+ */
+:root {
+  color-scheme: light;
+
+  --color-bg: #ffffff;
+  --color-surface: #ffffff;
+  --color-surface-sunken: #fafafa;
+
+  --color-line: #e3e3e3;
+  --color-line-soft: #ededed;
+
+  --color-ink: #111111;
+  --color-text: #1a1a1a;
+  --color-text-dim: #5a5a5a;
+  --color-text-faint: #767676;
+
+  --color-highlight-bg: #ebebeb;
+
+  /* Геометрический строчный шрифт — ближе всего к логотипу */
+  --font-sans:
+    'Avenir Next', Avenir, 'Futura', 'Helvetica Neue', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', SFMono-Regular, Menlo, monospace;
+
+  --text-xs: 10px;
+  --text-sm: 12px;
+  --text-md: 14px;
+  --text-lg: 17px;
+  --text-xl: 22px;
+
+  --tracking-wide: 0.08em;
+  --tracking-wider: 0.18em;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 40px;
+  --space-7: 64px;
+
+  --radius-sm: 2px;
+
+  --layout-max-width: 860px;
+}

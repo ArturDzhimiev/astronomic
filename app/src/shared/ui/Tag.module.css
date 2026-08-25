@@ -1,0 +1,23 @@
+.tag {
+  display: inline-block;
+  min-width: 2.4em;
+  padding: 1px 5px;
+  border: 1px solid currentcolor;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: var(--tracking-wide);
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* Заготовка — то, что бар готовит сам: выделяем акцентом */
+.subRecipe {
+  color: var(--color-ink);
+}
+
+/* Сырьё — закупается как есть: нейтрально */
+.raw {
+  color: var(--color-text-faint);
+}

@@ -1,0 +1,3862 @@
+[
+  {
+    "id": "pan-brioche",
+    "kind": "base",
+    "translations": {
+      "es": {
+        "title": "PAN BRIOCHE",
+        "yield": "rendimiento 10 pzas servicio / 1 barra acompañamiento",
+        "ingredients": [
+          {
+            "kind": null,
+            "name": "harina de trigo",
+            "recipeId": null,
+            "raw": "500 gr",
+            "amount": 500,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "levadura en polvo",
+            "recipeId": null,
+            "raw": "20 gr",
+            "amount": 20,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "leche entera",
+            "recipeId": null,
+            "raw": "100 ml",
+            "amount": 100,
+            "unit": "ml"
+          },
+          {
+            "kind": null,
+            "name": "mantequilla",
+            "recipeId": null,
+            "raw": "100 gr",
+            "amount": 100,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "agua",
+            "recipeId": null,
+            "raw": "100 ml",
+            "amount": 100,
+            "unit": "ml"
+          },
+          {
+            "kind": null,
+            "name": "sal",
+            "recipeId": null,
+            "raw": "10 gr",
+            "amount": 10,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "huevo",
+            "recipeId": null,
+            "raw": "1 pza",
+            "amount": 1,
+            "unit": "pza"
+          },
+          {
+            "kind": null,
+            "name": "azucar",
+            "recipeId": null,
+            "raw": "30 gr",
+            "amount": 30,
+            "unit": "gr"
+          }
+        ],
+        "steps": [
+          "En el bowl de batidora colocar los secos (harina, levadura en polvo, sal, azucar) y encender a velocidad baja por dos minutos, agregar el agua y la leche subiendo a velocidad media y por ultimo agregar el huevo y la mantequilla en cubos, dejar amasar por unos 6 min hasta que la masa sea homogenea y se pueda agarrar sin que se pegue en las manos, dejar reposar en un bowl con playo hasta que doble su tamaño, amasar ligeramente y dar forma de bolitas de 25 gr c/u para posteriormente acomodarlas de 4 en 4 juntas y barnizar con huevo, se deja levar nuevamente por 20 min y se mete a hornear a 180 c durante 20 min (calor seco 0% humedad)",
+          "En caso de preparar la barra se coloca el total amasado con rodillo y doblado en pliege enrollado dejando levar igual por 20 min pero el tiempo de horneado cambia a 25 min"
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "БРИОШЬ (ХЛЕБ)",
+        "yield": "Выход: 10 шт. на подачу / 1 булка на гарнир",
+        "ingredients": [
+          {
+            "kind": null,
+            "name": "пшеничная мука",
+            "recipeId": null,
+            "raw": "500 г",
+            "amount": 500,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "сухие дрожжи",
+            "recipeId": null,
+            "raw": "20 г",
+            "amount": 20,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "цельное молоко",
+            "recipeId": null,
+            "raw": "100 мл",
+            "amount": 100,
+            "unit": "мл"
+          },
+          {
+            "kind": null,
+            "name": "сливочное масло",
+            "recipeId": null,
+            "raw": "100 г",
+            "amount": 100,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "вода",
+            "recipeId": null,
+            "raw": "100 мл",
+            "amount": 100,
+            "unit": "мл"
+          },
+          {
+            "kind": null,
+            "name": "соль",
+            "recipeId": null,
+            "raw": "10 г",
+            "amount": 10,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "яйцо",
+            "recipeId": null,
+            "raw": "1 шт.",
+            "amount": 1,
+            "unit": "шт."
+          },
+          {
+            "kind": null,
+            "name": "сахар",
+            "recipeId": null,
+            "raw": "30 г",
+            "amount": 30,
+            "unit": "г"
+          }
+        ],
+        "steps": [
+          "В чаше миксера засыпать сухие компоненты (муку, дрожжи, соль, сахар), включить на низкой скорости на 2 минуты, добавить воду и молоко, увеличивая скорость до средней. В конце добавить яйцо и масло, нарезанное кубиками. Вымешивать около 6 минут до однородного эластичного теста, не липнущего к рукам. Оставить в накрытой миске до увеличения вдвое. Слегка обмять, сформировать шарики по 25 г и уложить по 4 штуки вместе, смазать яйцом. Дать расстояться ещё 20 минут и выпекать при 180°C 20 минут (сухой жар, влажность 0%).",
+          "Для варианта «булка»: раскатать всё тесто скалкой, свернуть рулетом со складкой, дать расстояться те же 20 минут, но время выпечки — 25 минут."
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "karaage",
+    "kind": "base",
+    "translations": {
+      "es": {
+        "title": "POLLO REBOSADO KARAAGE",
+        "yield": "rinde 5 porciones",
+        "ingredients": [
+          {
+            "kind": null,
+            "name": "muslo de pollo en cubos",
+            "recipeId": null,
+            "raw": "900 gr",
+            "amount": 900,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "salsa de soya",
+            "recipeId": null,
+            "raw": "300 ml",
+            "amount": 300,
+            "unit": "ml"
+          },
+          {
+            "kind": null,
+            "name": "ajo",
+            "recipeId": null,
+            "raw": "20 gr",
+            "amount": 20,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "cebolla blanca",
+            "recipeId": null,
+            "raw": "150 gr",
+            "amount": 150,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "jengibre",
+            "recipeId": null,
+            "raw": "25 gr",
+            "amount": 25,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "chile morita seco",
+            "recipeId": null,
+            "raw": "15 gr",
+            "amount": 15,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "aceite de ajonjoli",
+            "recipeId": null,
+            "raw": "10 ml",
+            "amount": 10,
+            "unit": "ml"
+          },
+          {
+            "kind": null,
+            "name": "harina de trigo",
+            "recipeId": null,
+            "raw": "250 gr",
+            "amount": 250,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "maicena",
+            "recipeId": null,
+            "raw": "150 gr",
+            "amount": 150,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "pimienta sichuan",
+            "recipeId": null,
+            "raw": "5 gr",
+            "amount": 5,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "canela en rama",
+            "recipeId": null,
+            "raw": "10 gr",
+            "amount": 10,
+            "unit": "gr"
+          }
+        ],
+        "steps": [
+          "Licuar la salsa de soya, el ajo, jengibre, cebolla y pimienta sichuan, agregar al pollo cortado en un cambro para reposar",
+          "Agregar la canela en rama troceada y el chile morita con un pequeño corte para que suelte sabor, dejar en reposo por al menos 2 hrs",
+          "Pasado este tiempo se porciona en bolsitas de 180 gr cada una con un poco del marinado, por ultimo se pasa por harina con maicena hasta rebosar completamente y se lleva a fritura profunda por 3-4 min a 180°c hasta quedar dorado"
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "КУРИНОЕ КАРААГЕ В КЛЯРЕ",
+        "yield": "Выход: 5 порций",
+        "ingredients": [
+          {
+            "kind": null,
+            "name": "куриные бёдра, кубиками",
+            "recipeId": null,
+            "raw": "900 г",
+            "amount": 900,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "соевый соус",
+            "recipeId": null,
+            "raw": "300 мл",
+            "amount": 300,
+            "unit": "мл"
+          },
+          {
+            "kind": null,
+            "name": "чеснок",
+            "recipeId": null,
+            "raw": "20 г",
+            "amount": 20,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "белый лук",
+            "recipeId": null,
+            "raw": "150 г",
+            "amount": 150,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "имбирь",
+            "recipeId": null,
+            "raw": "25 г",
+            "amount": 25,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "сушёный чили морита",
+            "recipeId": null,
+            "raw": "15 г",
+            "amount": 15,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "кунжутное масло",
+            "recipeId": null,
+            "raw": "10 мл",
+            "amount": 10,
+            "unit": "мл"
+          },
+          {
+            "kind": null,
+            "name": "пшеничная мука",
+            "recipeId": null,
+            "raw": "250 г",
+            "amount": 250,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "кукурузный крахмал",
+            "recipeId": null,
+            "raw": "150 г",
+            "amount": 150,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "сычуаньский перец",
+            "recipeId": null,
+            "raw": "5 г",
+            "amount": 5,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "палочка корицы",
+            "recipeId": null,
+            "raw": "10 г",
+            "amount": 10,
+            "unit": "г"
+          }
+        ],
+        "steps": [
+          "Пробить блендером соевый соус, чеснок, имбирь, лук и сычуаньский перец, залить маринадом нарезанную курицу в контейнере.",
+          "Добавить раздробленную палочку корицы и надрезанный чили морита (для раскрытия аромата). Мариновать не менее 2 часов.",
+          "Расфасовать порциями по 180 г с частью маринада, обвалять в смеси муки с крахмалом до полного покрытия и жарить во фритюре 3–4 минуты при 180°C до золотистой корочки."
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "arroz-meloso",
+    "kind": "base",
+    "translations": {
+      "es": {
+        "title": "ARROZ ROJO MELOSO",
+        "yield": "rinde 1 porcion de 190 gr",
+        "ingredients": [
+          {
+            "kind": null,
+            "name": "arroz bomba carraspara",
+            "recipeId": null,
+            "raw": "60 gr",
+            "amount": 60,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "jitomate saladet",
+            "recipeId": null,
+            "raw": "60 gr",
+            "amount": 60,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "pure de tomate",
+            "recipeId": null,
+            "raw": "20 ml",
+            "amount": 20,
+            "unit": "ml"
+          },
+          {
+            "kind": null,
+            "name": "crema para batir lyncott",
+            "recipeId": null,
+            "raw": "60 ml",
+            "amount": 60,
+            "unit": "ml"
+          },
+          {
+            "kind": null,
+            "name": "juice de rabo de res",
+            "recipeId": null,
+            "raw": "60 ml",
+            "amount": 60,
+            "unit": "ml"
+          },
+          {
+            "kind": null,
+            "name": "sal fina",
+            "recipeId": null,
+            "raw": "1 pizca",
+            "amount": 1,
+            "unit": "pizca"
+          },
+          {
+            "kind": null,
+            "name": "mantequilla",
+            "recipeId": null,
+            "raw": "15 gr",
+            "amount": 15,
+            "unit": "gr"
+          }
+        ],
+        "steps": [
+          "ARROZ: el arroz se coloca en un coludo con 1.5 partes de agua, 6 min a fuego alto y posteriormente a fuego minimo por 12 min mas, se apaga y se deja reposar por 5 min, pasado este tiempo se desmolda y se extiende para enfriar como resultado nos da una porcion de 100 gr de arroz cocido",
+          "PURE DE TOMATE ROJO: aqui unicamente se licua el jitomate saladet con el pure de tomate sazonado y se reserva en frio para la preparacion final",
+          "ARROZ MELOSO: colocar un sarten a fuego medio bajo y derretir la mantequilla, agregas el arroz a que se impregne de la mantequilla (tome un color amarillento) y comenzamos agregando el pure de tomate hasta que este cambie de color a un tono oscuro, seguimos con el juice y al final la crema, subimos a fuego medio alto para que se incorporen bien los sabores y reduzca un poco, rectificar sal y agregar una pizca en caso de ser necesario"
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "КРАСНЫЙ СЛИВОЧНЫЙ РИС",
+        "yield": "Выход: 1 порция 190 г",
+        "ingredients": [
+          {
+            "kind": null,
+            "name": "рис бомба (карнароли)",
+            "recipeId": null,
+            "raw": "60 г",
+            "amount": 60,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "томат саладет",
+            "recipeId": null,
+            "raw": "60 г",
+            "amount": 60,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "томатное пюре",
+            "recipeId": null,
+            "raw": "20 мл",
+            "amount": 20,
+            "unit": "мл"
+          },
+          {
+            "kind": null,
+            "name": "сливки для взбивания (Lyncott)",
+            "recipeId": null,
+            "raw": "60 мл",
+            "amount": 60,
+            "unit": "мл"
+          },
+          {
+            "kind": null,
+            "name": "джус из бычьего хвоста",
+            "recipeId": null,
+            "raw": "60 мл",
+            "amount": 60,
+            "unit": "мл"
+          },
+          {
+            "kind": null,
+            "name": "соль мелкая",
+            "recipeId": null,
+            "raw": "1 щепотка",
+            "amount": 1,
+            "unit": "щепотка"
+          },
+          {
+            "kind": null,
+            "name": "сливочное масло",
+            "recipeId": null,
+            "raw": "15 г",
+            "amount": 15,
+            "unit": "г"
+          }
+        ],
+        "steps": [
+          "РИС: варить в кастрюле с 1,5 частями воды: 6 минут на сильном огне, затем 12 минут на минимальном. Снять с огня и дать настояться 5 минут, затем выложить и остудить в расстеленном виде. Выход — порция 100 г варёного риса.",
+          "КРАСНОЕ ТОМАТНОЕ ПЮРЕ: пробить блендером томат саладет с приправленным томатным пюре, охладить и убрать в холод для финальной сборки.",
+          "СЛИВОЧНЫЙ РИС: на среднем-низком огне растопить сливочное масло, добавить рис и прогреть до лёгкого золотистого цвета. Добавлять томатное пюре, пока цвет не станет тёмным, затем джус и в конце сливки. Увеличить огонь до средне-сильного, чтобы вкусы соединились и соус слегка уварился. Довести до вкуса солью при необходимости."
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "focaccia-arugula",
+    "kind": "base",
+    "translations": {
+      "es": {
+        "title": "FOCACCIA DE ARUGULA",
+        "yield": "rendimiento 4 porciones",
+        "ingredients": [
+          {
+            "kind": null,
+            "name": "harina de trigo",
+            "recipeId": null,
+            "raw": "250 gr",
+            "amount": 250,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "arugula",
+            "recipeId": null,
+            "raw": "25 gr",
+            "amount": 25,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "levadura en polvo",
+            "recipeId": null,
+            "raw": "2.5 gr",
+            "amount": 2.5,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "miel",
+            "recipeId": null,
+            "raw": "10 ml",
+            "amount": 10,
+            "unit": "ml"
+          },
+          {
+            "kind": null,
+            "name": "aceite de olivo",
+            "recipeId": null,
+            "raw": "7.5 ml",
+            "amount": 7.5,
+            "unit": "ml"
+          },
+          {
+            "kind": null,
+            "name": "agua",
+            "recipeId": null,
+            "raw": "200 ml",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "kind": null,
+            "name": "sal fina",
+            "recipeId": null,
+            "raw": "5 gr",
+            "amount": 5,
+            "unit": "gr"
+          }
+        ],
+        "steps": [
+          "Licuar la arugula con el agua y agregar a la harina con los demas ingredientes revolviendo suavemente para dejar reposar la autolisis, pasado el tiempo de reposo se realizan varios pliegues hasta que no se pegue en las manos, colocar en una charola y extender con las manos, hornear a 180°c por unos 20 min en calor seco y cortar en porciones"
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "ФОКАЧЧА С РУККОЛОЙ",
+        "yield": "Выход: 4 порции",
+        "ingredients": [
+          {
+            "kind": null,
+            "name": "пшеничная мука",
+            "recipeId": null,
+            "raw": "250 г",
+            "amount": 250,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "руккола",
+            "recipeId": null,
+            "raw": "25 г",
+            "amount": 25,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "сухие дрожжи",
+            "recipeId": null,
+            "raw": "2.5 г",
+            "amount": 2.5,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "мёд",
+            "recipeId": null,
+            "raw": "10 мл",
+            "amount": 10,
+            "unit": "мл"
+          },
+          {
+            "kind": null,
+            "name": "оливковое масло",
+            "recipeId": null,
+            "raw": "7.5 мл",
+            "amount": 7.5,
+            "unit": "мл"
+          },
+          {
+            "kind": null,
+            "name": "вода",
+            "recipeId": null,
+            "raw": "200 мл",
+            "amount": 200,
+            "unit": "мл"
+          },
+          {
+            "kind": null,
+            "name": "соль мелкая",
+            "recipeId": null,
+            "raw": "5 г",
+            "amount": 5,
+            "unit": "г"
+          }
+        ],
+        "steps": [
+          "Пробить блендером рукколу с водой и добавить к муке вместе с остальными ингредиентами, аккуратно перемешать и оставить для автолиза. После времени отдыха выполнить несколько складываний теста, пока оно не перестанет липнуть к рукам. Выложить на противень, растянуть руками и выпекать при 180°C около 20 минут (сухой жар). Нарезать на порции."
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "juice-rabo",
+    "kind": "base",
+    "translations": {
+      "es": {
+        "title": "FONDO OSCURO DE RABO DE RES",
+        "yield": "",
+        "ingredients": [
+          {
+            "kind": null,
+            "name": "rabo de res",
+            "recipeId": null,
+            "raw": "5 kg",
+            "amount": 5,
+            "unit": "kg"
+          },
+          {
+            "kind": null,
+            "name": "zanahoria",
+            "recipeId": null,
+            "raw": "1 kg",
+            "amount": 1,
+            "unit": "kg"
+          },
+          {
+            "kind": null,
+            "name": "cebolla blanca",
+            "recipeId": null,
+            "raw": "1 kg",
+            "amount": 1,
+            "unit": "kg"
+          },
+          {
+            "kind": null,
+            "name": "apio",
+            "recipeId": null,
+            "raw": "1 kg",
+            "amount": 1,
+            "unit": "kg"
+          },
+          {
+            "kind": null,
+            "name": "vino tinto",
+            "recipeId": null,
+            "raw": "300 ml",
+            "amount": 300,
+            "unit": "ml"
+          },
+          {
+            "kind": null,
+            "name": "mantequilla",
+            "recipeId": null,
+            "raw": "165 gr",
+            "amount": 165,
+            "unit": "gr"
+          }
+        ],
+        "steps": [
+          "Hervir el rabo de res durante 3 hrs, retirar toda la carne de los huesos y en una bandeja colocar los huesos con los vegetales cortados y 150 ml de vino tinto al horno por 4 hrs a 180°c en calor seco ventilador 3",
+          "Al sacar se usan los otros 150 ml de vino para desglasar la charola y reducir en 8 litros de agua a fuego bajo sin que hierva por 24 hrs y se cuela con el colador fino y se enfria a temperatura ambiente y se conserva en congelador hasta separar la grasa",
+          "Esta se retira y el caldo se liga con mantequilla para obtener el juice"
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "ТЁМНЫЙ БУЛЬОН-ДЖУС ИЗ БЫЧЬЕГО ХВОСТА",
+        "yield": "",
+        "ingredients": [
+          {
+            "kind": null,
+            "name": "бычий хвост",
+            "recipeId": null,
+            "raw": "5 кг",
+            "amount": 5,
+            "unit": "кг"
+          },
+          {
+            "kind": null,
+            "name": "морковь",
+            "recipeId": null,
+            "raw": "1 кг",
+            "amount": 1,
+            "unit": "кг"
+          },
+          {
+            "kind": null,
+            "name": "белый лук",
+            "recipeId": null,
+            "raw": "1 кг",
+            "amount": 1,
+            "unit": "кг"
+          },
+          {
+            "kind": null,
+            "name": "сельдерей",
+            "recipeId": null,
+            "raw": "1 кг",
+            "amount": 1,
+            "unit": "кг"
+          },
+          {
+            "kind": null,
+            "name": "красное вино",
+            "recipeId": null,
+            "raw": "300 мл",
+            "amount": 300,
+            "unit": "мл"
+          },
+          {
+            "kind": null,
+            "name": "сливочное масло",
+            "recipeId": null,
+            "raw": "165 г",
+            "amount": 165,
+            "unit": "г"
+          }
+        ],
+        "steps": [
+          "Отварить бычий хвост в течение 3 часов, отделить всё мясо от костей. На противень выложить кости с нарезанными овощами и 150 мл красного вина, запекать в духовке 4 часа при 180°C (сухой жар, вентилятор 3).",
+          "После запекания деглазировать противень оставшимися 150 мл вина и переложить всё в 8 литров воды. Томить на слабом огне, не доводя до кипения, 24 часа, процедить через мелкое сито, остудить до комнатной температуры и убрать в морозильник для отделения жира.",
+          "Жир снять, а бульон загустить сливочным маслом (монтировать) для получения джуса."
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "relleno-canelon",
+    "kind": "base",
+    "translations": {
+      "es": {
+        "title": "RELLENO DE CANELON",
+        "yield": "",
+        "ingredients": [],
+        "steps": [],
+        "isEmpty": true,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "НАЧИНКА ДЛЯ КАННЕЛЛОНИ",
+        "yield": "",
+        "ingredients": [],
+        "steps": [],
+        "isEmpty": true,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "pulpo-cocido",
+    "kind": "base",
+    "translations": {
+      "es": {
+        "title": "PULPO COCIDO",
+        "yield": "",
+        "ingredients": [],
+        "steps": [],
+        "isEmpty": true,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "ОТВАРНОЙ ОСЬМИНОГ",
+        "yield": "",
+        "ingredients": [],
+        "steps": [],
+        "isEmpty": true,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "salsa-bearnesa",
+    "kind": "base",
+    "translations": {
+      "es": {
+        "title": "SALSA BEARNESA",
+        "yield": "",
+        "ingredients": [
+          {
+            "kind": null,
+            "name": "mantequilla clarificada",
+            "recipeId": null,
+            "raw": "700 ml",
+            "amount": 700,
+            "unit": "ml"
+          },
+          {
+            "kind": null,
+            "name": "yemas de huevo",
+            "recipeId": null,
+            "raw": "10 pzas",
+            "amount": 10,
+            "unit": "pzas"
+          },
+          {
+            "kind": null,
+            "name": "vinagre de vino blanco",
+            "recipeId": null,
+            "raw": "120 ml",
+            "amount": 120,
+            "unit": "ml"
+          },
+          {
+            "kind": null,
+            "name": "estragon",
+            "recipeId": null,
+            "raw": "32 gr",
+            "amount": 32,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "echalotes",
+            "recipeId": null,
+            "raw": "2 pzas",
+            "amount": 2,
+            "unit": "pzas"
+          },
+          {
+            "kind": null,
+            "name": "pimienta negra",
+            "recipeId": null,
+            "raw": "5 gr",
+            "amount": 5,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "sal",
+            "recipeId": null,
+            "raw": "según requiera",
+            "amount": null,
+            "unit": null
+          },
+          {
+            "kind": null,
+            "name": "vino blanco",
+            "recipeId": null,
+            "raw": "120 ml",
+            "amount": 120,
+            "unit": "ml"
+          }
+        ],
+        "steps": [
+          "A la mantequilla clarificada se agrega el vinagre de vino, el vino blanco, echalote y la pimienta negra recien molida reduciendo a la mitad",
+          "En un bowl con un dedo de agua caliente en baño maria, un segundo bowl con las 10 yemas, la reduccion y batir durante 5 min",
+          "Incorporar la mantequilla en forma de hilo hasta terminarla con batido constante, finalmente se agrega el estragon finamente picado, mantener a temperatura ambiente"
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "СОУС БЕАРНЕЗ",
+        "yield": "",
+        "ingredients": [
+          {
+            "kind": null,
+            "name": "топлёное масло",
+            "recipeId": null,
+            "raw": "700 мл",
+            "amount": 700,
+            "unit": "мл"
+          },
+          {
+            "kind": null,
+            "name": "яичные желтки",
+            "recipeId": null,
+            "raw": "10 шт.",
+            "amount": 10,
+            "unit": "шт."
+          },
+          {
+            "kind": null,
+            "name": "белый винный уксус",
+            "recipeId": null,
+            "raw": "120 мл",
+            "amount": 120,
+            "unit": "мл"
+          },
+          {
+            "kind": null,
+            "name": "эстрагон",
+            "recipeId": null,
+            "raw": "32 г",
+            "amount": 32,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "эшалот",
+            "recipeId": null,
+            "raw": "2 шт.",
+            "amount": 2,
+            "unit": "шт."
+          },
+          {
+            "kind": null,
+            "name": "чёрный перец",
+            "recipeId": null,
+            "raw": "5 г",
+            "amount": 5,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "соль",
+            "recipeId": null,
+            "raw": "по вкусу",
+            "amount": null,
+            "unit": null
+          },
+          {
+            "kind": null,
+            "name": "белое вино",
+            "recipeId": null,
+            "raw": "120 мл",
+            "amount": 120,
+            "unit": "мл"
+          }
+        ],
+        "steps": [
+          "В топлёное масло добавить винный уксус, белое вино, эшалот и свежемолотый чёрный перец, уварить наполовину.",
+          "В миске на водяной бане (с небольшим количеством горячей воды) во второй миске взбить 10 желтков с редукцией в течение 5 минут.",
+          "Вливать масло тонкой струйкой при постоянном взбивании до полного соединения, в конце добавить мелко нарезанный эстрагон. Хранить при комнатной температуре."
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "bilbaina",
+    "kind": "base",
+    "translations": {
+      "es": {
+        "title": "BILBAINA PICANTE",
+        "yield": "",
+        "ingredients": [],
+        "steps": [],
+        "isEmpty": true,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "БИЛЬБАИНСКИЙ ОСТРЫЙ СОУС",
+        "yield": "",
+        "ingredients": [],
+        "steps": [],
+        "isEmpty": true,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "minonete",
+    "kind": "base",
+    "translations": {
+      "es": {
+        "title": "MIÑONETE",
+        "yield": "",
+        "ingredients": [],
+        "steps": [],
+        "isEmpty": true,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "МИНЬОНЕТ",
+        "yield": "",
+        "ingredients": [],
+        "steps": [],
+        "isEmpty": true,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "bizcocho-vainilla",
+    "kind": "base",
+    "translations": {
+      "es": {
+        "title": "BIZCOCHO DE VAINILLA",
+        "yield": "10 porciones",
+        "ingredients": [
+          {
+            "kind": null,
+            "name": "huevo entero",
+            "recipeId": null,
+            "raw": "4 pzas",
+            "amount": 4,
+            "unit": "pzas"
+          },
+          {
+            "kind": null,
+            "name": "clara de huevo",
+            "recipeId": null,
+            "raw": "2 claras",
+            "amount": 2,
+            "unit": "claras"
+          },
+          {
+            "kind": null,
+            "name": "azucar",
+            "recipeId": null,
+            "raw": "60 gr",
+            "amount": 60,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "harina de trigo",
+            "recipeId": null,
+            "raw": "60 gr",
+            "amount": 60,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "leche entera",
+            "recipeId": null,
+            "raw": "60 gr",
+            "amount": 60,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "escencia de vainilla",
+            "recipeId": null,
+            "raw": "10 ml",
+            "amount": 10,
+            "unit": "ml"
+          },
+          {
+            "kind": null,
+            "name": "polvo para hornear",
+            "recipeId": null,
+            "raw": "10 gr",
+            "amount": 10,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "jugo de limon",
+            "recipeId": null,
+            "raw": "10 ml",
+            "amount": 10,
+            "unit": "ml"
+          }
+        ],
+        "steps": [
+          "Se separan las claras y las yemas, en el bowl de la batidora preparar un merengue con las claras, el jugo de limon y el azucar en forma de lluvia hasta tener picos firmes",
+          "Aparte calentar 80 ml de aceite vegetal a unos 50°c y vaciar sobre la harina, mezclar suavemente, agregar la leche y continuar mezclando, por ultimo se agregan las yemas y el polvo para hornear",
+          "En esta mezcla se coloca el 20% del merengue y se incorpora de manera envolvente hasta quedar parejo, despues esta mezcla se agrega al resto del merengue y nuevamente de manera envolvente para no perder volumen",
+          "Para finalizar se engrasan ligeramente los moldes y se llenan hasta 3/4 partes, el resto va a una bandeja extendida, hornear a 150°c por 24 min con 100% humedad y ventilador 3"
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "ВАНИЛЬНЫЙ БИСКВИТ",
+        "yield": "10 порций",
+        "ingredients": [
+          {
+            "kind": null,
+            "name": "целое яйцо",
+            "recipeId": null,
+            "raw": "4 шт.",
+            "amount": 4,
+            "unit": "шт."
+          },
+          {
+            "kind": null,
+            "name": "яичный белок",
+            "recipeId": null,
+            "raw": "2 шт.",
+            "amount": 2,
+            "unit": "шт."
+          },
+          {
+            "kind": null,
+            "name": "сахар",
+            "recipeId": null,
+            "raw": "60 г",
+            "amount": 60,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "пшеничная мука",
+            "recipeId": null,
+            "raw": "60 г",
+            "amount": 60,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "цельное молоко",
+            "recipeId": null,
+            "raw": "60 г",
+            "amount": 60,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "ванильный экстракт",
+            "recipeId": null,
+            "raw": "10 мл",
+            "amount": 10,
+            "unit": "мл"
+          },
+          {
+            "kind": null,
+            "name": "разрыхлитель",
+            "recipeId": null,
+            "raw": "10 г",
+            "amount": 10,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "лимонный сок",
+            "recipeId": null,
+            "raw": "10 мл",
+            "amount": 10,
+            "unit": "мл"
+          }
+        ],
+        "steps": [
+          "Отделить белки от желтков. В чаше миксера взбить безе из белков, лимонного сока и сахара, всыпаемого дождём, до устойчивых пиков.",
+          "Отдельно нагреть 80 мл растительного масла до ~50°C и влить в муку, аккуратно перемешать, добавить молоко и продолжить смешивание. В конце добавить желтки и разрыхлитель.",
+          "В эту смесь ввести 20% безе, аккуратно перемешивая складывающими движениями до однородности, затем полученную массу переложить в оставшееся безе, также складывающими движениями, сохраняя объём.",
+          "Слегка смазать формы и заполнить на 3/4, остаток вылить на противень тонким слоем. Выпекать при 150°C 24 минуты, влажность 100%, вентилятор 3."
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "betun-malvavisco",
+    "kind": "base",
+    "translations": {
+      "es": {
+        "title": "MARSHMELLOW FLUFF",
+        "yield": "",
+        "ingredients": [
+          {
+            "kind": null,
+            "name": "grenetina",
+            "recipeId": null,
+            "raw": "60 gr",
+            "amount": 60,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "azucar",
+            "recipeId": null,
+            "raw": "200 gr",
+            "amount": 200,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "agua",
+            "recipeId": null,
+            "raw": "400 ml",
+            "amount": 400,
+            "unit": "ml"
+          }
+        ],
+        "steps": [
+          "Hidratar la grenetina en 200 ml de agua y reservar en el bowl de la batidora, a fuego medio hacer un jarabe con los 250 gr de azucar y los 150 ml de agua restante hasta que hierva",
+          "Se pone a batir la grenetina a velocidad media hasta que levante un poco y se agrega el jarabe caliente en forma de hilo batiendo a velocidad alta hasta que se enfrie completamente"
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "КРЕМ-СУФЛЕ «МАРШМЕЛЛОУ»",
+        "yield": "",
+        "ingredients": [
+          {
+            "kind": null,
+            "name": "желатин",
+            "recipeId": null,
+            "raw": "60 г",
+            "amount": 60,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "сахар",
+            "recipeId": null,
+            "raw": "200 г",
+            "amount": 200,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "вода",
+            "recipeId": null,
+            "raw": "400 мл",
+            "amount": 400,
+            "unit": "мл"
+          }
+        ],
+        "steps": [
+          "Замочить желатин в 200 мл воды и отставить в чашу миксера. На среднем огне сварить сироп из 250 г сахара и оставшихся 150 мл воды до кипения.",
+          "Взбить желатин на средней скорости, пока не начнёт слегка подниматься, затем влить горячий сироп тонкой струйкой при постоянном взбивании. Взбивать на высокой скорости до полного остывания."
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "jalea-fresa",
+    "kind": "base",
+    "translations": {
+      "es": {
+        "title": "GEL DE FRESA",
+        "yield": "",
+        "ingredients": [
+          {
+            "kind": null,
+            "name": "fresa natural",
+            "recipeId": null,
+            "raw": "1 kg",
+            "amount": 1,
+            "unit": "kg"
+          },
+          {
+            "kind": null,
+            "name": "azucar",
+            "recipeId": null,
+            "raw": "150 gr",
+            "amount": 150,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "glucosa",
+            "recipeId": null,
+            "raw": "100 gr",
+            "amount": 100,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "grenetina",
+            "recipeId": null,
+            "raw": "40 gr",
+            "amount": 40,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "agua",
+            "recipeId": null,
+            "raw": "según requiera",
+            "amount": null,
+            "unit": null
+          }
+        ],
+        "steps": [
+          "Tomar 500 gr de fresa y retirarles el rabillo, colocar a hervir con 200 ml de agua, la glucosa y el azucar durante 5 min, dejar enfriar y licuar",
+          "Regresar al fuego a flama baja y agregar la grenetina hidratada hasta disolver completamente, dejar enfriar por unas 2 hrs",
+          "Ya cuajada la grenetina procesar con el turbo de mano agregando los 500 grs de fresa restante y agua suficiente para integrar hasta obtener un gel"
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "КЛУБНИЧНОЕ ЖЕЛЕ",
+        "yield": "",
+        "ingredients": [
+          {
+            "kind": null,
+            "name": "свежая клубника",
+            "recipeId": null,
+            "raw": "1 кг",
+            "amount": 1,
+            "unit": "кг"
+          },
+          {
+            "kind": null,
+            "name": "сахар",
+            "recipeId": null,
+            "raw": "150 г",
+            "amount": 150,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "глюкозный сироп",
+            "recipeId": null,
+            "raw": "100 г",
+            "amount": 100,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "желатин",
+            "recipeId": null,
+            "raw": "40 г",
+            "amount": 40,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "вода",
+            "recipeId": null,
+            "raw": "по необходимости",
+            "amount": null,
+            "unit": null
+          }
+        ],
+        "steps": [
+          "Взять 500 г клубники, удалить плодоножки, отварить с 200 мл воды, глюкозой и сахаром в течение 5 минут, остудить и пробить блендером.",
+          "Вернуть на слабый огонь и добавить замоченный желатин, полностью растворив. Остудить около 2 часов.",
+          "После застывания пробить погружным блендером вместе с оставшимися 500 г свежей клубники и достаточным количеством воды до получения консистенции геля."
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "porkbelly",
+    "kind": "base",
+    "translations": {
+      "es": {
+        "title": "PORK BELLY PRECOCIDO",
+        "yield": "",
+        "ingredients": [],
+        "steps": [],
+        "isEmpty": true,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "ОТВАРНАЯ СВИНАЯ ГРУДИНКА (ПОРК-БЕЛЛИ)",
+        "yield": "",
+        "ingredients": [],
+        "steps": [],
+        "isEmpty": true,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "mantequilla-perejil",
+    "kind": "base",
+    "translations": {
+      "es": {
+        "title": "MANTEQUILLA DE SERVICIO",
+        "yield": "",
+        "ingredients": [
+          {
+            "kind": null,
+            "name": "mantequilla",
+            "recipeId": null,
+            "raw": "250 gr",
+            "amount": 250,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "ajo",
+            "recipeId": null,
+            "raw": "50 gr",
+            "amount": 50,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "perejil",
+            "recipeId": null,
+            "raw": "25 gr",
+            "amount": 25,
+            "unit": "gr"
+          }
+        ],
+        "steps": [
+          "Confitar el ajo en la mantequilla clarificada a fuego muy bajo por unos 30 min aproximadamente, retirar del fuego y vaciar en los moldes con el perejil picado",
+          "Dejar en refrigeracion hasta que solidifique y envolver individualmente para conservacion"
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "СЛИВОЧНОЕ МАСЛО С ЧЕСНОКОМ И ПЕТРУШКОЙ",
+        "yield": "",
+        "ingredients": [
+          {
+            "kind": null,
+            "name": "сливочное масло",
+            "recipeId": null,
+            "raw": "250 г",
+            "amount": 250,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "чеснок",
+            "recipeId": null,
+            "raw": "50 г",
+            "amount": 50,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "петрушка",
+            "recipeId": null,
+            "raw": "25 г",
+            "amount": 25,
+            "unit": "г"
+          }
+        ],
+        "steps": [
+          "Конфи́т чеснок в топлёном масле на очень слабом огне около 30 минут, снять с огня и разлить по формам с нарезанной петрушкой.",
+          "Убрать в холодильник до застывания, затем упаковать порционно для хранения."
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "valentina",
+    "kind": "base",
+    "translations": {
+      "es": {
+        "title": "VALENTINA CASERA",
+        "yield": "",
+        "ingredients": [],
+        "steps": [],
+        "isEmpty": true,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "ДОМАШНЯЯ ВАЛЕНТИНА (ОСТРЫЙ СОУС)",
+        "yield": "",
+        "ingredients": [],
+        "steps": [],
+        "isEmpty": true,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "cremoso-aguacate",
+    "kind": "base",
+    "translations": {
+      "es": {
+        "title": "CREMOSO DE AGUACATE",
+        "yield": "rendimiento 600 gr",
+        "ingredients": [
+          {
+            "kind": null,
+            "name": "pulpa de aguacate",
+            "recipeId": null,
+            "raw": "425 gr",
+            "amount": 425,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "chile serrano",
+            "recipeId": null,
+            "raw": "50 gr",
+            "amount": 50,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "cilantro",
+            "recipeId": null,
+            "raw": "10 gr",
+            "amount": 10,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "hinojo",
+            "recipeId": null,
+            "raw": "10 gr",
+            "amount": 10,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "crema para batir lyncott",
+            "recipeId": null,
+            "raw": "120 gr",
+            "amount": 120,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "queso crema",
+            "recipeId": null,
+            "raw": "120 gr",
+            "amount": 120,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "jugo de limon",
+            "recipeId": null,
+            "raw": "30 ml",
+            "amount": 30,
+            "unit": "ml"
+          },
+          {
+            "kind": null,
+            "name": "sal",
+            "recipeId": null,
+            "raw": "10 gr",
+            "amount": 10,
+            "unit": "gr"
+          }
+        ],
+        "steps": [
+          "Procesar o licuar todos los ingredientes hasta incorporar de manera homogenea, rectificar punto de sal al final"
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": {
+          "title": "PICO DE GALLO",
+          "ingredients": [
+            {
+              "kind": null,
+              "name": "jitomate saladet",
+              "recipeId": null,
+              "raw": "200 gr",
+              "amount": 200,
+              "unit": "gr"
+            },
+            {
+              "kind": null,
+              "name": "cebolla blanca",
+              "recipeId": null,
+              "raw": "120 gr",
+              "amount": 120,
+              "unit": "gr"
+            },
+            {
+              "kind": null,
+              "name": "aceite olivo",
+              "recipeId": null,
+              "raw": "10 ml",
+              "amount": 10,
+              "unit": "ml"
+            },
+            {
+              "kind": null,
+              "name": "jugo de limon",
+              "recipeId": null,
+              "raw": "10 ml",
+              "amount": 10,
+              "unit": "ml"
+            },
+            {
+              "kind": null,
+              "name": "sal",
+              "recipeId": null,
+              "raw": "2 gr",
+              "amount": 2,
+              "unit": "gr"
+            }
+          ],
+          "steps": [
+            "Picar el jitomate y la cebolla en brunoisse y mezclar en un bowl con el aceite y jugo de limon, rectificar el punto de sal al final"
+          ]
+        }
+      },
+      "ru": {
+        "title": "КРЕМ ИЗ АВОКАДО",
+        "yield": "Крем — выход 600 г",
+        "ingredients": [
+          {
+            "kind": null,
+            "name": "мякоть авокадо",
+            "recipeId": null,
+            "raw": "425 г",
+            "amount": 425,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "перец чили серрано",
+            "recipeId": null,
+            "raw": "50 г",
+            "amount": 50,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "кинза",
+            "recipeId": null,
+            "raw": "10 г",
+            "amount": 10,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "фенхель",
+            "recipeId": null,
+            "raw": "10 г",
+            "amount": 10,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "сливки для взбивания (Lyncott)",
+            "recipeId": null,
+            "raw": "120 г",
+            "amount": 120,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "сливочный сыр",
+            "recipeId": null,
+            "raw": "120 г",
+            "amount": 120,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "лимонный сок",
+            "recipeId": null,
+            "raw": "30 мл",
+            "amount": 30,
+            "unit": "мл"
+          },
+          {
+            "kind": null,
+            "name": "соль",
+            "recipeId": null,
+            "raw": "10 г",
+            "amount": 10,
+            "unit": "г"
+          }
+        ],
+        "steps": [
+          "Пробить или измельчить все ингредиенты до однородной массы, довести до вкуса солью в конце."
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": {
+          "title": "ПИКО ДЕ ГАЛЬО (для сопровождения)",
+          "ingredients": [
+            {
+              "kind": null,
+              "name": "томат саладет",
+              "recipeId": null,
+              "raw": "200 г",
+              "amount": 200,
+              "unit": "г"
+            },
+            {
+              "kind": null,
+              "name": "белый лук",
+              "recipeId": null,
+              "raw": "120 г",
+              "amount": 120,
+              "unit": "г"
+            },
+            {
+              "kind": null,
+              "name": "оливковое масло",
+              "recipeId": null,
+              "raw": "10 мл",
+              "amount": 10,
+              "unit": "мл"
+            },
+            {
+              "kind": null,
+              "name": "лимонный сок",
+              "recipeId": null,
+              "raw": "10 мл",
+              "amount": 10,
+              "unit": "мл"
+            },
+            {
+              "kind": null,
+              "name": "соль",
+              "recipeId": null,
+              "raw": "2 г",
+              "amount": 2,
+              "unit": "г"
+            }
+          ],
+          "steps": [
+            "Нарезать томат и лук мелким кубиком (брюнуаз), смешать в миске с маслом и лимонным соком, довести до вкуса солью в конце."
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "macha-morita",
+    "kind": "base",
+    "translations": {
+      "es": {
+        "title": "MACHA DE MORITA Y MAPLE",
+        "yield": "",
+        "ingredients": [],
+        "steps": [],
+        "isEmpty": true,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "СОУС «МАЧА» ИЗ ЧИЛИ МОРИТА И КЛЕНОВОГО СИРОПА",
+        "yield": "",
+        "ingredients": [],
+        "steps": [],
+        "isEmpty": true,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "flan-queso",
+    "kind": "base",
+    "translations": {
+      "es": {
+        "title": "FLAN DE QUESO",
+        "yield": "",
+        "ingredients": [
+          {
+            "kind": null,
+            "name": "huevo entero",
+            "recipeId": null,
+            "raw": "3 pzas",
+            "amount": 3,
+            "unit": "pzas"
+          },
+          {
+            "kind": null,
+            "name": "yemas de huevo",
+            "recipeId": null,
+            "raw": "2 pzas",
+            "amount": 2,
+            "unit": "pzas"
+          },
+          {
+            "kind": null,
+            "name": "escencia de vainilla",
+            "recipeId": null,
+            "raw": "10 ml",
+            "amount": 10,
+            "unit": "ml"
+          },
+          {
+            "kind": null,
+            "name": "queso crema",
+            "recipeId": null,
+            "raw": "190 gr",
+            "amount": 190,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "leche entera",
+            "recipeId": null,
+            "raw": "300 ml",
+            "amount": 300,
+            "unit": "ml"
+          },
+          {
+            "kind": null,
+            "name": "leche para batir",
+            "recipeId": null,
+            "raw": "200 ml",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "kind": null,
+            "name": "leche condensada",
+            "recipeId": null,
+            "raw": "200 gr",
+            "amount": 200,
+            "unit": "gr"
+          }
+        ],
+        "steps": [
+          "En un coludo a fuego bajo colocar la leche entera, crema para batir y la escencia de vainilla, remover poco a poco hasta incorporar sin dejar hervir, llevar a una temperatura de 50-55°c y reservar",
+          "En el bowl de la batidora colocar con el globo los huevos, las yemas y la leche condensada a velocidad baja, una vez incorporadas agregar el queso crema y subir a velocidad media",
+          "Agregar en tres partes la leche tibia hasta conseguir una mezcla homogenea (mas o menos unos 6 min)",
+          "Engrasar ligeramente los moldes a utilizar y colocar una base de caramelo al fondo, tapar y llevar al horno a 100°c con 100% de humedad durante 20 min"
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "СЫРНЫЙ ФЛАН",
+        "yield": "",
+        "ingredients": [
+          {
+            "kind": null,
+            "name": "целое яйцо",
+            "recipeId": null,
+            "raw": "3 шт.",
+            "amount": 3,
+            "unit": "шт."
+          },
+          {
+            "kind": null,
+            "name": "яичные желтки",
+            "recipeId": null,
+            "raw": "2 шт.",
+            "amount": 2,
+            "unit": "шт."
+          },
+          {
+            "kind": null,
+            "name": "ванильный экстракт",
+            "recipeId": null,
+            "raw": "10 мл",
+            "amount": 10,
+            "unit": "мл"
+          },
+          {
+            "kind": null,
+            "name": "сливочный сыр",
+            "recipeId": null,
+            "raw": "190 г",
+            "amount": 190,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "цельное молоко",
+            "recipeId": null,
+            "raw": "300 мл",
+            "amount": 300,
+            "unit": "мл"
+          },
+          {
+            "kind": null,
+            "name": "сливки для взбивания",
+            "recipeId": null,
+            "raw": "200 мл",
+            "amount": 200,
+            "unit": "мл"
+          },
+          {
+            "kind": null,
+            "name": "сгущённое молоко",
+            "recipeId": null,
+            "raw": "200 г",
+            "amount": 200,
+            "unit": "г"
+          }
+        ],
+        "steps": [
+          "В кастрюле на слабом огне соединить цельное молоко, сливки и ванильный экстракт, постепенно перемешивая до однородности, не доводя до кипения. Довести до температуры 50–55°C и отставить.",
+          "В чаше миксера венчиком взбить яйца, желтки и сгущённое молоко на низкой скорости, затем добавить сливочный сыр и увеличить скорость до средней.",
+          "Влить тёплую молочную смесь в три приёма до получения однородной массы (около 6 минут).",
+          "Слегка смазать формы, на дно налить карамель, накрыть и выпекать при 100°C с влажностью 100% в течение 20 минут."
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "pure-papa",
+    "kind": "base",
+    "translations": {
+      "es": {
+        "title": "PURE DE PAPA",
+        "yield": "",
+        "ingredients": [
+          {
+            "kind": null,
+            "name": "papa blanca",
+            "recipeId": null,
+            "raw": "1 kg",
+            "amount": 1,
+            "unit": "kg"
+          },
+          {
+            "kind": null,
+            "name": "mantequilla",
+            "recipeId": null,
+            "raw": "150 gr",
+            "amount": 150,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "leche entera",
+            "recipeId": null,
+            "raw": "200 ml",
+            "amount": 200,
+            "unit": "ml"
+          },
+          {
+            "kind": null,
+            "name": "sal",
+            "recipeId": null,
+            "raw": "10 gr",
+            "amount": 10,
+            "unit": "gr"
+          },
+          {
+            "kind": null,
+            "name": "crema lyncott",
+            "recipeId": null,
+            "raw": "150 ml",
+            "amount": 150,
+            "unit": "ml"
+          }
+        ],
+        "steps": [
+          "Pelar las papas y cortar en cubos medianos, cocer en agua hirviendo durante 20 min o hasta que se puedan atravesar sin resistencia, machacar con el aplasta papas y llevar a una consistencia cremosa con la mantequilla, leche, crema y sal"
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "КАРТОФЕЛЬНОЕ ПЮРЕ",
+        "yield": "",
+        "ingredients": [
+          {
+            "kind": null,
+            "name": "белый картофель",
+            "recipeId": null,
+            "raw": "1 кг",
+            "amount": 1,
+            "unit": "кг"
+          },
+          {
+            "kind": null,
+            "name": "сливочное масло",
+            "recipeId": null,
+            "raw": "150 г",
+            "amount": 150,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "цельное молоко",
+            "recipeId": null,
+            "raw": "200 мл",
+            "amount": 200,
+            "unit": "мл"
+          },
+          {
+            "kind": null,
+            "name": "соль",
+            "recipeId": null,
+            "raw": "10 г",
+            "amount": 10,
+            "unit": "г"
+          },
+          {
+            "kind": null,
+            "name": "сливки Lyncott",
+            "recipeId": null,
+            "raw": "150 мл",
+            "amount": 150,
+            "unit": "мл"
+          }
+        ],
+        "steps": [
+          "Очистить картофель, нарезать средним кубиком и отварить в кипящей воде 20 минут (или до мягкости). Размять картофелемялкой, довести до кремовой консистенции с маслом, молоком, сливками и солью."
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "pan-servicio",
+    "kind": "dish",
+    "translations": {
+      "es": {
+        "title": "PAN DE SERVICIO",
+        "yield": null,
+        "ingredients": [
+          {
+            "kind": "sub-recipe",
+            "name": "pan brioche de servicio",
+            "recipeId": "pan-brioche",
+            "raw": "1 PZA",
+            "amount": 1,
+            "unit": "PZA"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "mantequilla de ajo y perejil",
+            "recipeId": "mantequilla-perejil",
+            "raw": "1 PZA",
+            "amount": 1,
+            "unit": "PZA"
+          },
+          {
+            "kind": "raw",
+            "name": "jitomate rallado",
+            "recipeId": null,
+            "raw": "0.045 KG",
+            "amount": 0.045,
+            "unit": "KG"
+          },
+          {
+            "kind": "raw",
+            "name": "aceite de olivo",
+            "recipeId": null,
+            "raw": "1 OZ",
+            "amount": 1,
+            "unit": "OZ"
+          },
+          {
+            "kind": "raw",
+            "name": "vinagre balsamico",
+            "recipeId": null,
+            "raw": "1 OZ",
+            "amount": 1,
+            "unit": "OZ"
+          }
+        ],
+        "steps": [
+          "En un plato alargado grande se coloca la pieza de pan brioche, la barra de mantequilla directamente y los complementos (tomate y aceite con balsamico) en sufleras de metal como esta en la foto"
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "ХЛЕБ К СТОЛУ",
+        "yield": null,
+        "ingredients": [
+          {
+            "kind": "sub-recipe",
+            "name": "бриошь порционная",
+            "recipeId": "pan-brioche",
+            "raw": "1 шт.",
+            "amount": 1,
+            "unit": "шт."
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "масло с чесноком и петрушкой",
+            "recipeId": "mantequilla-perejil",
+            "raw": "1 шт.",
+            "amount": 1,
+            "unit": "шт."
+          },
+          {
+            "kind": "raw",
+            "name": "томат тёртый",
+            "recipeId": null,
+            "raw": "0.045 кг",
+            "amount": 0.045,
+            "unit": "кг"
+          },
+          {
+            "kind": "raw",
+            "name": "оливковое масло",
+            "recipeId": null,
+            "raw": "1 унц.",
+            "amount": 1,
+            "unit": "унц."
+          },
+          {
+            "kind": "raw",
+            "name": "бальзамический уксус",
+            "recipeId": null,
+            "raw": "1 унц.",
+            "amount": 1,
+            "unit": "унц."
+          }
+        ],
+        "steps": [
+          "На продолговатой тарелке разместить бриошь, брусок сливочного масла прямо на тарелке и дополнения (томат и масло с бальзамиком) в металлических соусницах — как показано на фото-эталоне."
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "papa-pulpo",
+    "kind": "dish",
+    "translations": {
+      "es": {
+        "title": "PAPAS BEARNESA CON PULPO",
+        "yield": null,
+        "ingredients": [
+          {
+            "kind": "raw",
+            "name": "papa blanca",
+            "recipeId": null,
+            "raw": "0.1 KG",
+            "amount": 0.1,
+            "unit": "KG"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "salsa bearnesa",
+            "recipeId": "salsa-bearnesa",
+            "raw": "0.12 LT",
+            "amount": 0.12,
+            "unit": "LT"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "pulpo cocido",
+            "recipeId": "pulpo-cocido",
+            "raw": "0.06 KG",
+            "amount": 0.06,
+            "unit": "KG"
+          },
+          {
+            "kind": "raw",
+            "name": "sal fina",
+            "recipeId": null,
+            "raw": "0.001 KG",
+            "amount": 0.001,
+            "unit": "KG"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "juice de rabo",
+            "recipeId": "juice-rabo",
+            "raw": "0.09 LT",
+            "amount": 0.09,
+            "unit": "LT"
+          },
+          {
+            "kind": "raw",
+            "name": "cebollin",
+            "recipeId": null,
+            "raw": "0.001 KG",
+            "amount": 0.001,
+            "unit": "KG"
+          },
+          {
+            "kind": "raw",
+            "name": "maicena",
+            "recipeId": null,
+            "raw": "0.06 KG",
+            "amount": 0.06,
+            "unit": "KG"
+          }
+        ],
+        "steps": [
+          "Pelar la papa y cortar en cubos medianos (2.5 cm aprox) secar bien y pasar por la maicena, tamizar ligeramente en un colador para quitar el exceso y bajar a fritura profunda por 5 min, dejar escurrir el aceite y aplicar el gr de sal",
+          "Colocar en el plato sopero al fondo con el pulpo cortado en laminas delgadas (.5 cm aprox) y mezclar minimamente, se termina bañando con la salsa bearnesa y cebollin picado"
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "КАРТОФЕЛЬ «БЕАРНЕЗ» С ОСЬМИНОГОМ",
+        "yield": null,
+        "ingredients": [
+          {
+            "kind": "raw",
+            "name": "белый картофель",
+            "recipeId": null,
+            "raw": "0.1 кг",
+            "amount": 0.1,
+            "unit": "кг"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "соус беарнез",
+            "recipeId": "salsa-bearnesa",
+            "raw": "0.12 л",
+            "amount": 0.12,
+            "unit": "л"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "отварной осьминог",
+            "recipeId": "pulpo-cocido",
+            "raw": "0.06 кг",
+            "amount": 0.06,
+            "unit": "кг"
+          },
+          {
+            "kind": "raw",
+            "name": "соль мелкая",
+            "recipeId": null,
+            "raw": "0.001 кг",
+            "amount": 0.001,
+            "unit": "кг"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "джус из бычьего хвоста",
+            "recipeId": "juice-rabo",
+            "raw": "0.09 л",
+            "amount": 0.09,
+            "unit": "л"
+          },
+          {
+            "kind": "raw",
+            "name": "лук-шнитт",
+            "recipeId": null,
+            "raw": "0.001 кг",
+            "amount": 0.001,
+            "unit": "кг"
+          },
+          {
+            "kind": "raw",
+            "name": "кукурузный крахмал",
+            "recipeId": null,
+            "raw": "0.06 кг",
+            "amount": 0.06,
+            "unit": "кг"
+          }
+        ],
+        "steps": [
+          "Картофель очистить, нарезать средним кубиком (~2,5 см), хорошо обсушить и обвалять в крахмале, слегка просеять через сито от излишков. Обжарить во фритюре 5 минут, дать стечь маслу и посолить.",
+          "Выложить в глубокую тарелку основой, сверху тонко нарезанный (~0,5 см) осьминог, слегка перемешать. Полить соусом беарнез и посыпать нарезанным луком-шниттом."
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "mejillones",
+    "kind": "dish",
+    "translations": {
+      "es": {
+        "title": "MEJILLONES EN BILBAINA PICANTE",
+        "yield": null,
+        "ingredients": [
+          {
+            "kind": "raw",
+            "name": "mejillones",
+            "recipeId": null,
+            "raw": "10 PZA",
+            "amount": 10,
+            "unit": "PZA"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "bilbaina picante",
+            "recipeId": "bilbaina",
+            "raw": "5 OZ",
+            "amount": 5,
+            "unit": "OZ"
+          },
+          {
+            "kind": "raw",
+            "name": "aceite de olivo",
+            "recipeId": null,
+            "raw": "1 OZ",
+            "amount": 1,
+            "unit": "OZ"
+          },
+          {
+            "kind": "raw",
+            "name": "echalote",
+            "recipeId": null,
+            "raw": "0.01 KG",
+            "amount": 0.01,
+            "unit": "KG"
+          },
+          {
+            "kind": "raw",
+            "name": "perejil",
+            "recipeId": null,
+            "raw": "0.005 KG",
+            "amount": 0.005,
+            "unit": "KG"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "pan brioche rebanado",
+            "recipeId": "pan-brioche",
+            "raw": "3 RBD",
+            "amount": 3,
+            "unit": "RBD"
+          }
+        ],
+        "steps": [
+          "Se precaliente un sarten con el aceite de olivo, sofreir ligeramente el echalote y se agregan de golpe los mejillones, se bañan con la bilbaina salteando constantemente",
+          "Se sirven en el plato orejon mediano terminando con perejil fresco encima y 3 rebanadas de brioche tostado"
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "МИДИИ ПО-БИЛЬБАЙСКИ (ОСТРЫЕ)",
+        "yield": null,
+        "ingredients": [
+          {
+            "kind": "raw",
+            "name": "мидии",
+            "recipeId": null,
+            "raw": "10 шт.",
+            "amount": 10,
+            "unit": "шт."
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "соус «бильбаина» острый",
+            "recipeId": "bilbaina",
+            "raw": "5 унц.",
+            "amount": 5,
+            "unit": "унц."
+          },
+          {
+            "kind": "raw",
+            "name": "оливковое масло",
+            "recipeId": null,
+            "raw": "1 унц.",
+            "amount": 1,
+            "unit": "унц."
+          },
+          {
+            "kind": "raw",
+            "name": "эшалот",
+            "recipeId": null,
+            "raw": "0.01 кг",
+            "amount": 0.01,
+            "unit": "кг"
+          },
+          {
+            "kind": "raw",
+            "name": "петрушка",
+            "recipeId": null,
+            "raw": "0.005 кг",
+            "amount": 0.005,
+            "unit": "кг"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "бриошь, нарезанная ломтиками",
+            "recipeId": "pan-brioche",
+            "raw": "3 ломт.",
+            "amount": 3,
+            "unit": "ломт."
+          }
+        ],
+        "steps": [
+          "Разогреть сковороду с оливковым маслом, слегка обжарить эшалот, разом добавить мидии. Полить соусом «бильбаина» и обжаривать при постоянном помешивании.",
+          "Подавать на среднем плоском блюде, посыпав свежей петрушкой, с 3 ломтиками поджаренной бриоши."
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "ostion",
+    "kind": "dish",
+    "translations": {
+      "es": {
+        "title": "OSTION FRESCO",
+        "yield": null,
+        "ingredients": [
+          {
+            "kind": "raw",
+            "name": "ostion fresco",
+            "recipeId": null,
+            "raw": "3 PZA",
+            "amount": 3,
+            "unit": "PZA"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "miñonete",
+            "recipeId": "minonete",
+            "raw": "0.5 OZ",
+            "amount": 0.5,
+            "unit": "OZ"
+          },
+          {
+            "kind": "raw",
+            "name": "limon amarillo",
+            "recipeId": null,
+            "raw": "0.15 PZA",
+            "amount": 0.15,
+            "unit": "PZA"
+          },
+          {
+            "kind": "raw",
+            "name": "salsa tabasco",
+            "recipeId": null,
+            "raw": "0.5 PZA",
+            "amount": 0.5,
+            "unit": "PZA"
+          }
+        ],
+        "steps": [
+          "Abrimos los ostiones y separamos la vianda, con la mamila colocamos miñonete sobre cada uno",
+          "Colocamos en las ollas de vidrio con hielo frappe y se sirve acompañado de gajos de limon amarillo y salsa tabasco"
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "СВЕЖИЕ УСТРИЦЫ",
+        "yield": null,
+        "ingredients": [
+          {
+            "kind": "raw",
+            "name": "свежие устрицы",
+            "recipeId": null,
+            "raw": "3 шт.",
+            "amount": 3,
+            "unit": "шт."
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "миньонет",
+            "recipeId": "minonete",
+            "raw": "0.5 унц.",
+            "amount": 0.5,
+            "unit": "унц."
+          },
+          {
+            "kind": "raw",
+            "name": "жёлтый лимон",
+            "recipeId": null,
+            "raw": "0.15 шт.",
+            "amount": 0.15,
+            "unit": "шт."
+          },
+          {
+            "kind": "raw",
+            "name": "соус табаско",
+            "recipeId": null,
+            "raw": "0.5 шт.",
+            "amount": 0.5,
+            "unit": "шт."
+          }
+        ],
+        "steps": [
+          "Открыть устрицы, отделив мясо от створки. С помощью пипетки нанести миньонет на каждую устрицу.",
+          "Выложить в стеклянные ёмкости на колотый лёд и подать с дольками жёлтого лимона и соусом табаско."
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "brocheta-porkbelly",
+    "kind": "dish",
+    "translations": {
+      "es": {
+        "title": "BROCHETA DE PORKBELLY CARAMELIZADA",
+        "yield": null,
+        "ingredients": [
+          {
+            "kind": "sub-recipe",
+            "name": "porkbelly cocido",
+            "recipeId": "porkbelly",
+            "raw": "0.12 KG",
+            "amount": 0.12,
+            "unit": "KG"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "glaseado de 5 especias",
+            "recipeId": null,
+            "raw": "0.09 LT",
+            "amount": 0.09,
+            "unit": "LT"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "pure de papa",
+            "recipeId": "pure-papa",
+            "raw": "0.06 KG",
+            "amount": 0.06,
+            "unit": "KG"
+          },
+          {
+            "kind": "raw",
+            "name": "cebollin picado",
+            "recipeId": null,
+            "raw": "0.001 KG",
+            "amount": 0.001,
+            "unit": "KG"
+          },
+          {
+            "kind": "raw",
+            "name": "azucar refinada",
+            "recipeId": null,
+            "raw": "0.1 KG",
+            "amount": 0.1,
+            "unit": "KG"
+          }
+        ],
+        "steps": [
+          "Embrochetamos las lonjas de porkbelly de manera uniforme sobre un pincho de brocheta y glaseamos con brocha por cada lado",
+          "Llevamos a la robatayaki con carbon durante unos 4 min aproximadamente glaseando con brocha en cada vuelta que se le de",
+          "Aparte en un sarten se coloca el azucar directamente a fuego medio hasta que caramelice, retiramos las brochetas del fuego y cubrimos con el caramelo por ambos lados, dejamos que endurezca por 1-2 min",
+          "Servimos en un plato alargado mediano con papel de servicio y pure de papa, terminamos con cebollin picado"
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "БРОШЕТ ИЗ КАРАМЕЛИЗИРОВАННОЙ ГРУДИНКИ",
+        "yield": null,
+        "ingredients": [
+          {
+            "kind": "sub-recipe",
+            "name": "отварная свиная грудинка",
+            "recipeId": "porkbelly",
+            "raw": "0.12 кг",
+            "amount": 0.12,
+            "unit": "кг"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "глазурь «пять специй»",
+            "recipeId": null,
+            "raw": "0.09 л",
+            "amount": 0.09,
+            "unit": "л"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "картофельное пюре",
+            "recipeId": "pure-papa",
+            "raw": "0.06 кг",
+            "amount": 0.06,
+            "unit": "кг"
+          },
+          {
+            "kind": "raw",
+            "name": "лук-шнитт, нарезанный",
+            "recipeId": null,
+            "raw": "0.001 кг",
+            "amount": 0.001,
+            "unit": "кг"
+          },
+          {
+            "kind": "raw",
+            "name": "сахар рафинированный",
+            "recipeId": null,
+            "raw": "0.1 кг",
+            "amount": 0.1,
+            "unit": "кг"
+          }
+        ],
+        "steps": [
+          "Ломтики грудинки равномерно нанизать на шпажку, глазировать кистью с каждой стороны.",
+          "Готовить на робатаяки (гриле на углях) около 4 минут, продолжая глазировать при каждом переворачивании.",
+          "Отдельно на сковороде на среднем огне карамелизировать сахар без добавок. Снять брошеты с огня и покрыть карамелью с обеих сторон, дать затвердеть 1–2 минуты.",
+          "Подавать на среднем продолговатом блюде с бумагой для подачи и картофельным пюре, завершить нарезанным луком-шниттом."
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "sope-atun",
+    "kind": "dish",
+    "translations": {
+      "es": {
+        "title": "SOPE DE ATUN ZARANDEADO",
+        "yield": null,
+        "ingredients": [
+          {
+            "kind": "sub-recipe",
+            "name": "salsa zarandeado",
+            "recipeId": null,
+            "raw": "3 OZ",
+            "amount": 3,
+            "unit": "OZ"
+          },
+          {
+            "kind": "raw",
+            "name": "lamina de lomo de atun",
+            "recipeId": null,
+            "raw": "0.08 KG",
+            "amount": 0.08,
+            "unit": "KG"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "sope de maiz azul",
+            "recipeId": null,
+            "raw": "1 PZA",
+            "amount": 1,
+            "unit": "PZA"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "frijoles refritos",
+            "recipeId": null,
+            "raw": "0.06 KG",
+            "amount": 0.06,
+            "unit": "KG"
+          },
+          {
+            "kind": "raw",
+            "name": "aguacate",
+            "recipeId": null,
+            "raw": "0.1 KG",
+            "amount": 0.1,
+            "unit": "KG"
+          },
+          {
+            "kind": "raw",
+            "name": "cilantro criollo",
+            "recipeId": null,
+            "raw": "0.003 KG",
+            "amount": 0.003,
+            "unit": "KG"
+          },
+          {
+            "kind": "raw",
+            "name": "queso doble crema chilchota",
+            "recipeId": null,
+            "raw": "0.03 KG",
+            "amount": 0.03,
+            "unit": "KG"
+          },
+          {
+            "kind": "raw",
+            "name": "rabano",
+            "recipeId": null,
+            "raw": "0.025 KG",
+            "amount": 0.025,
+            "unit": "KG"
+          },
+          {
+            "kind": "raw",
+            "name": "hueva de lumpo",
+            "recipeId": null,
+            "raw": "0.01 KG",
+            "amount": 0.01,
+            "unit": "KG"
+          }
+        ],
+        "steps": [
+          "El atun laminado se unta con el zarandeado por ambos lados y con el soplete de mano se sella directamente hasta notar ligeras manchas de tatemado, untando zarandeado tres veces",
+          "Para montar colocamos el sope de maiz azul en un plato base de acero con papel astronomic, untamos los frijoles, el aguacate laminado (de unos 3mm de grosor) encima la lamina de atun sellado",
+          "Se termina con el queso doble crema desmenuzado, el cilantro criollo esparcido, una rosa de rabano laminado al centro y cuatro puntos de hueva de lumpo"
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "СОПЕ С ОБОЖЖЁННЫМ ТУНЦОМ ЗАРАНДЕАДО",
+        "yield": null,
+        "ingredients": [
+          {
+            "kind": "sub-recipe",
+            "name": "соус «зарандеадо»",
+            "recipeId": null,
+            "raw": "3 унц.",
+            "amount": 3,
+            "unit": "унц."
+          },
+          {
+            "kind": "raw",
+            "name": "пласты филе тунца",
+            "recipeId": null,
+            "raw": "0.08 кг",
+            "amount": 0.08,
+            "unit": "кг"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "сопе из синей кукурузы",
+            "recipeId": null,
+            "raw": "1 шт.",
+            "amount": 1,
+            "unit": "шт."
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "пюре из фасоли (рефритос)",
+            "recipeId": null,
+            "raw": "0.06 кг",
+            "amount": 0.06,
+            "unit": "кг"
+          },
+          {
+            "kind": "raw",
+            "name": "авокадо",
+            "recipeId": null,
+            "raw": "0.1 кг",
+            "amount": 0.1,
+            "unit": "кг"
+          },
+          {
+            "kind": "raw",
+            "name": "кинза криолья",
+            "recipeId": null,
+            "raw": "0.003 кг",
+            "amount": 0.003,
+            "unit": "кг"
+          },
+          {
+            "kind": "raw",
+            "name": "сыр двойных сливок «чилчота»",
+            "recipeId": null,
+            "raw": "0.03 кг",
+            "amount": 0.03,
+            "unit": "кг"
+          },
+          {
+            "kind": "raw",
+            "name": "редис",
+            "recipeId": null,
+            "raw": "0.025 кг",
+            "amount": 0.025,
+            "unit": "кг"
+          },
+          {
+            "kind": "raw",
+            "name": "икра рыбы лумпо",
+            "recipeId": null,
+            "raw": "0.01 кг",
+            "amount": 0.01,
+            "unit": "кг"
+          }
+        ],
+        "steps": [
+          "Пласты тунца обмазать соусом зарандеадо с обеих сторон и обжечь ручной горелкой до появления лёгких подпалин, нанося соус трижды.",
+          "Для сборки выложить сопе из синей кукурузы на стальную тарелку с бумагой astronomic, намазать фасолевым пюре, тонко нарезанное авокадо (~3 мм), сверху обожжённый тунец.",
+          "Посыпать тёртым сыром двойных сливок, кинзой, в центре — «розочку» из тонко нарезанного редиса и четыре точки икры лумпо."
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "pollo-frito",
+    "kind": "dish",
+    "translations": {
+      "es": {
+        "title": "POLLO FRITO",
+        "yield": null,
+        "ingredients": [
+          {
+            "kind": "sub-recipe",
+            "name": "pollo karaage",
+            "recipeId": "karaage",
+            "raw": "1 ORD",
+            "amount": 1,
+            "unit": "ORD"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "salsa picante casera",
+            "recipeId": "valentina",
+            "raw": "3 OZ",
+            "amount": 3,
+            "unit": "OZ"
+          },
+          {
+            "kind": "raw",
+            "name": "col blanca",
+            "recipeId": null,
+            "raw": "0.1 KG",
+            "amount": 0.1,
+            "unit": "KG"
+          },
+          {
+            "kind": "raw",
+            "name": "perejil",
+            "recipeId": null,
+            "raw": "0.01 KG",
+            "amount": 0.01,
+            "unit": "KG"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "rub acidulce",
+            "recipeId": null,
+            "raw": "0.03 KG",
+            "amount": 0.03,
+            "unit": "KG"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "aderezo de chimichurri",
+            "recipeId": null,
+            "raw": "2 OZ",
+            "amount": 2,
+            "unit": "OZ"
+          },
+          {
+            "kind": "raw",
+            "name": "limon amarillo",
+            "recipeId": null,
+            "raw": "0.15 PZA",
+            "amount": 0.15,
+            "unit": "PZA"
+          }
+        ],
+        "steps": [
+          "Cortamos la col blanca y el perejil en chiffonade y revolvemos con el rub",
+          "En el plato ovni se coloca la porcion del pollo frito, la mezcla de col y un ramiqui con la mayonesa, el plato se va acompañado de una maila de salsa casera decorado con ajonjoli garapiñado y un sexto de limon amarillo"
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "ЖАРЕНАЯ КУРИЦА (ПОЙО ФРИТО)",
+        "yield": null,
+        "ingredients": [
+          {
+            "kind": "sub-recipe",
+            "name": "куриное карааге",
+            "recipeId": "karaage",
+            "raw": "1 порц.",
+            "amount": 1,
+            "unit": "порц."
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "домашний острый соус",
+            "recipeId": "valentina",
+            "raw": "3 унц.",
+            "amount": 3,
+            "unit": "унц."
+          },
+          {
+            "kind": "raw",
+            "name": "белокочанная капуста",
+            "recipeId": null,
+            "raw": "0.1 кг",
+            "amount": 0.1,
+            "unit": "кг"
+          },
+          {
+            "kind": "raw",
+            "name": "петрушка",
+            "recipeId": null,
+            "raw": "0.01 кг",
+            "amount": 0.01,
+            "unit": "кг"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "кисло-сладкий раб (приправа)",
+            "recipeId": null,
+            "raw": "0.03 кг",
+            "amount": 0.03,
+            "unit": "кг"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "заправка чимичурри",
+            "recipeId": null,
+            "raw": "2 унц.",
+            "amount": 2,
+            "unit": "унц."
+          },
+          {
+            "kind": "raw",
+            "name": "жёлтый лимон",
+            "recipeId": null,
+            "raw": "0.15 шт.",
+            "amount": 0.15,
+            "unit": "шт."
+          }
+        ],
+        "steps": [
+          "Нашинковать капусту и петрушку тонкой соломкой (шифонад) и смешать с рабом.",
+          "На овальной тарелке разместить порцию жареной курицы, смесь капусты и рамекин с майонезом. Блюдо дополнить полоской домашнего острого соуса, украсить карамелизированным кунжутом и долькой жёлтого лимона (1/6)."
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "focaccia-papada",
+    "kind": "dish",
+    "translations": {
+      "es": {
+        "title": "FOCACCIA CON CHICHARRON DE PAPADA",
+        "yield": null,
+        "ingredients": [
+          {
+            "kind": "sub-recipe",
+            "name": "pan focaccia de arugula",
+            "recipeId": "focaccia-arugula",
+            "raw": "1 PZA",
+            "amount": 1,
+            "unit": "PZA"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "chicharron de papada",
+            "recipeId": null,
+            "raw": "0.025 KG",
+            "amount": 0.025,
+            "unit": "KG"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "cremoso de aguacate",
+            "recipeId": "cremoso-aguacate",
+            "raw": "0.05 OZ",
+            "amount": 0.05,
+            "unit": "OZ"
+          },
+          {
+            "kind": "raw",
+            "name": "arugula",
+            "recipeId": null,
+            "raw": "0.005 KG",
+            "amount": 0.005,
+            "unit": "KG"
+          },
+          {
+            "kind": "raw",
+            "name": "espinaca baby",
+            "recipeId": null,
+            "raw": "0.005 KG",
+            "amount": 0.005,
+            "unit": "KG"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "salsa macha de maple",
+            "recipeId": "macha-morita",
+            "raw": "0.5 OZ",
+            "amount": 0.5,
+            "unit": "OZ"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "pico de gallo",
+            "recipeId": null,
+            "raw": "0.6 KG",
+            "amount": 0.6,
+            "unit": "KG"
+          },
+          {
+            "kind": "raw",
+            "name": "flor de pensamiento comestible",
+            "recipeId": null,
+            "raw": "1 PZA",
+            "amount": 1,
+            "unit": "PZA"
+          }
+        ],
+        "steps": [
+          "Colocamos como base el pan focaccia y varios puntos de cremoso de aguacate sobre este, mezclamos la arugula con la espinaca baby",
+          "Sobre esta el pico de gallo, la papada de cerdo en lonjas, la salsa macha esparcida en toda la superficie y terminamos con el pensamiento de manera decorativa"
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "ФОКАЧЧА С ЧИЧАРРОНОМ ИЗ СВИНОЙ ЩЕКИ",
+        "yield": null,
+        "ingredients": [
+          {
+            "kind": "sub-recipe",
+            "name": "фокачча с рукколой",
+            "recipeId": "focaccia-arugula",
+            "raw": "1 шт.",
+            "amount": 1,
+            "unit": "шт."
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "чичаррон из свиной щеки",
+            "recipeId": null,
+            "raw": "0.025 кг",
+            "amount": 0.025,
+            "unit": "кг"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "крем из авокадо",
+            "recipeId": "cremoso-aguacate",
+            "raw": "0.05 унц.",
+            "amount": 0.05,
+            "unit": "унц."
+          },
+          {
+            "kind": "raw",
+            "name": "руккола",
+            "recipeId": null,
+            "raw": "0.005 кг",
+            "amount": 0.005,
+            "unit": "кг"
+          },
+          {
+            "kind": "raw",
+            "name": "молодой шпинат",
+            "recipeId": null,
+            "raw": "0.005 кг",
+            "amount": 0.005,
+            "unit": "кг"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "соус «мача» с кленовым сиропом",
+            "recipeId": "macha-morita",
+            "raw": "0.5 унц.",
+            "amount": 0.5,
+            "unit": "унц."
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "пико де гальо",
+            "recipeId": null,
+            "raw": "0.6 кг",
+            "amount": 0.6,
+            "unit": "кг"
+          },
+          {
+            "kind": "raw",
+            "name": "съедобный цветок анютиных глазок",
+            "recipeId": null,
+            "raw": "1 шт.",
+            "amount": 1,
+            "unit": "шт."
+          }
+        ],
+        "steps": [
+          "Основой выложить фокаччу, нанести несколько точек крема из авокадо. Смешать рукколу с молодым шпинатом.",
+          "Выложить сверху пико де гальо, ломтики свиной щеки, соус «мача», распределённый по всей поверхности, и завершить декоративно цветком анютиных глазок."
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "rib-eye",
+    "kind": "dish",
+    "translations": {
+      "es": {
+        "title": "RIB EYE CANTINERO",
+        "yield": null,
+        "ingredients": [
+          {
+            "kind": "raw",
+            "name": "rib eye 250 gr",
+            "recipeId": null,
+            "raw": "1 PZA",
+            "amount": 1,
+            "unit": "PZA"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "juice de rabo",
+            "recipeId": "juice-rabo",
+            "raw": "6 OZ",
+            "amount": 6,
+            "unit": "OZ"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "pure de papa",
+            "recipeId": "pure-papa",
+            "raw": "0.06 KG",
+            "amount": 0.06,
+            "unit": "KG"
+          },
+          {
+            "kind": "raw",
+            "name": "papa",
+            "recipeId": null,
+            "raw": "0.1 KG",
+            "amount": 0.1,
+            "unit": "KG"
+          },
+          {
+            "kind": "raw",
+            "name": "cebollin",
+            "recipeId": null,
+            "raw": "0.001 KG",
+            "amount": 0.001,
+            "unit": "KG"
+          }
+        ],
+        "steps": [
+          "Llevamos el rib eye con un poco de aceite y hojuela de sal a la robatayaki, cuadramos y sacamos cuando este en termino medio",
+          "En lo que se cuece la carne la papa se corta en julianas largas y se lleva a fritura profunda a 180°c por 2 minutos aproximadamente",
+          "Colocamos el rib eye sobre un plato orejon mediano a manera de cama, bañamos con juice de rabo caliente, una tira de pure de papa en botones y encima las papas fritas, por ultimo terminamos con cebollin picado"
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "РИБАЙ «КАНТИНЕРО»",
+        "yield": null,
+        "ingredients": [
+          {
+            "kind": "raw",
+            "name": "рибай, 250 г",
+            "recipeId": null,
+            "raw": "1 шт.",
+            "amount": 1,
+            "unit": "шт."
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "джус из бычьего хвоста",
+            "recipeId": "juice-rabo",
+            "raw": "6 унц.",
+            "amount": 6,
+            "unit": "унц."
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "картофельное пюре",
+            "recipeId": "pure-papa",
+            "raw": "0.06 кг",
+            "amount": 0.06,
+            "unit": "кг"
+          },
+          {
+            "kind": "raw",
+            "name": "картофель",
+            "recipeId": null,
+            "raw": "0.1 кг",
+            "amount": 0.1,
+            "unit": "кг"
+          },
+          {
+            "kind": "raw",
+            "name": "лук-шнитт",
+            "recipeId": null,
+            "raw": "0.001 кг",
+            "amount": 0.001,
+            "unit": "кг"
+          }
+        ],
+        "steps": [
+          "Рибай с небольшим количеством масла и хлопьевидной солью отправить на робатаяки, довести до средней прожарки.",
+          "Пока готовится мясо, картофель нарезать длинной соломкой и обжарить во фритюре при 180°C около 2 минут.",
+          "На среднюю овальную тарелку выложить рибай, полить горячим джусом из бычьего хвоста, добавить полоску картофельного пюре точками и картофель фри сверху. Завершить нарезанным луком-шниттом."
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "canelon-rabo",
+    "kind": "dish",
+    "translations": {
+      "es": {
+        "title": "CANELON DE RABO",
+        "yield": null,
+        "ingredients": [
+          {
+            "kind": "raw",
+            "name": "pasta de canelon (tubo)",
+            "recipeId": null,
+            "raw": "3 PZA",
+            "amount": 3,
+            "unit": "PZA"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "relleno de canelon",
+            "recipeId": "relleno-canelon",
+            "raw": "0.15 KG",
+            "amount": 0.15,
+            "unit": "KG"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "salsa bechamel",
+            "recipeId": null,
+            "raw": "4 OZ",
+            "amount": 4,
+            "unit": "OZ"
+          },
+          {
+            "kind": "raw",
+            "name": "cebollin",
+            "recipeId": null,
+            "raw": "0.001 KG",
+            "amount": 0.001,
+            "unit": "KG"
+          },
+          {
+            "kind": "raw",
+            "name": "ralladura de limon amarillo",
+            "recipeId": null,
+            "raw": "0.001 KG",
+            "amount": 0.001,
+            "unit": "KG"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "juice de rabo",
+            "recipeId": "juice-rabo",
+            "raw": "4 OZ",
+            "amount": 4,
+            "unit": "OZ"
+          }
+        ],
+        "steps": [
+          "Rellenamos los tubos de canelon con la pasta de rabo y champiñones en partes iguales cada uno, y reservamos en un plato orejon chico",
+          "En un coludo o sarten aparte calentamos el juice y la bechamel por separado a una temperatura aproximada de 60°c",
+          "Colocamos el juice como espejo base y la bechamel para bañar cada canelon, terminando con el cebollin y la ralladura por encima"
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "КАННЕЛЛОНИ ИЗ БЫЧЬЕГО ХВОСТА",
+        "yield": null,
+        "ingredients": [
+          {
+            "kind": "raw",
+            "name": "трубочки каннеллони (сухая паста)",
+            "recipeId": null,
+            "raw": "3 шт.",
+            "amount": 3,
+            "unit": "шт."
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "начинка для каннеллони",
+            "recipeId": "relleno-canelon",
+            "raw": "0.15 кг",
+            "amount": 0.15,
+            "unit": "кг"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "соус бешамель",
+            "recipeId": null,
+            "raw": "4 унц.",
+            "amount": 4,
+            "unit": "унц."
+          },
+          {
+            "kind": "raw",
+            "name": "лук-шнитт",
+            "recipeId": null,
+            "raw": "0.001 кг",
+            "amount": 0.001,
+            "unit": "кг"
+          },
+          {
+            "kind": "raw",
+            "name": "цедра жёлтого лимона",
+            "recipeId": null,
+            "raw": "0.001 кг",
+            "amount": 0.001,
+            "unit": "кг"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "джус из бычьего хвоста",
+            "recipeId": "juice-rabo",
+            "raw": "4 унц.",
+            "amount": 4,
+            "unit": "унц."
+          }
+        ],
+        "steps": [
+          "Наполнить трубочки каннеллони начинкой из бычьего хвоста с грибами в равных пропорциях, выложить на маленькое овальное блюдо.",
+          "В отдельных сотейниках подогреть джус и бешамель примерно до 60°C.",
+          "Разлить джус по тарелке как зеркальную основу, полить каждый каннеллони соусом бешамель, завершить луком-шниттом и цедрой лимона сверху."
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "arroz-mar-tierra",
+    "kind": "dish",
+    "translations": {
+      "es": {
+        "title": "ARROZ MELOSO MAR Y TIERRA",
+        "yield": null,
+        "ingredients": [
+          {
+            "kind": "sub-recipe",
+            "name": "arroz rojo cremoso",
+            "recipeId": "arroz-meloso",
+            "raw": "1 ORD",
+            "amount": 1,
+            "unit": "ORD"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "pulpo cocido",
+            "recipeId": "pulpo-cocido",
+            "raw": "0.1 KG",
+            "amount": 0.1,
+            "unit": "KG"
+          },
+          {
+            "kind": "raw",
+            "name": "chistorra",
+            "recipeId": null,
+            "raw": "0.06 KG",
+            "amount": 0.06,
+            "unit": "KG"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "mayonesa de chimichurri",
+            "recipeId": null,
+            "raw": "1 OZ",
+            "amount": 1,
+            "unit": "OZ"
+          },
+          {
+            "kind": "raw",
+            "name": "cilantro criollo",
+            "recipeId": null,
+            "raw": "0.003 KG",
+            "amount": 0.003,
+            "unit": "KG"
+          }
+        ],
+        "steps": [
+          "Cortamos el pulpo en laminas de 3 mm de grueso aproximadamente y la chistorra porcionada a la mitad",
+          "En un plato orejon mediano se coloca el arroz preparado de base y acomodamos el pulpo y la chistorra cubriendo la mayor parte de la superficie del arroz",
+          "Llevamos a la salamandra por 1 min a llama directa, bajamos y terminamos esparciendo puntos de mayonesa y pizcas de cilantro preferentemente con flor"
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "СЛИВОЧНЫЙ РИС «МОРЕ И СУША»",
+        "yield": null,
+        "ingredients": [
+          {
+            "kind": "sub-recipe",
+            "name": "красный сливочный рис",
+            "recipeId": "arroz-meloso",
+            "raw": "1 порц.",
+            "amount": 1,
+            "unit": "порц."
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "отварной осьминог",
+            "recipeId": "pulpo-cocido",
+            "raw": "0.1 кг",
+            "amount": 0.1,
+            "unit": "кг"
+          },
+          {
+            "kind": "raw",
+            "name": "чисторра (испанская колбаса)",
+            "recipeId": null,
+            "raw": "0.06 кг",
+            "amount": 0.06,
+            "unit": "кг"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "майонез чимичурри",
+            "recipeId": null,
+            "raw": "1 унц.",
+            "amount": 1,
+            "unit": "унц."
+          },
+          {
+            "kind": "raw",
+            "name": "кинза криолья",
+            "recipeId": null,
+            "raw": "0.003 кг",
+            "amount": 0.003,
+            "unit": "кг"
+          }
+        ],
+        "steps": [
+          "Осьминога нарезать пластинами толщиной ~3 мм, чисторру разрезать пополам.",
+          "На средней овальной тарелке выложить готовый рис основой, сверху разместить осьминога и чисторру, покрывая большую часть поверхности риса.",
+          "Отправить под саламандр на открытом огне на 1 минуту, снять и завершить точками майонеза и щепотками кинзы, желательно с цветком."
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "ensalada-tomates",
+    "kind": "dish",
+    "translations": {
+      "es": {
+        "title": "ENSALADA DE TOMATES Y ARUGULA",
+        "yield": null,
+        "ingredients": [
+          {
+            "kind": "raw",
+            "name": "tomate heirloom",
+            "recipeId": null,
+            "raw": "0.125 KG",
+            "amount": 0.125,
+            "unit": "KG"
+          },
+          {
+            "kind": "raw",
+            "name": "jitomate cherry",
+            "recipeId": null,
+            "raw": "0.075 KG",
+            "amount": 0.075,
+            "unit": "KG"
+          },
+          {
+            "kind": "raw",
+            "name": "arugula",
+            "recipeId": null,
+            "raw": "0.01 KG",
+            "amount": 0.01,
+            "unit": "KG"
+          },
+          {
+            "kind": "raw",
+            "name": "aceite de olivo",
+            "recipeId": null,
+            "raw": "1 OZ",
+            "amount": 1,
+            "unit": "OZ"
+          },
+          {
+            "kind": "raw",
+            "name": "vinagre balsamico",
+            "recipeId": null,
+            "raw": "0.5 OZ",
+            "amount": 0.5,
+            "unit": "OZ"
+          }
+        ],
+        "steps": [],
+        "isEmpty": false,
+        "ingredientsOnly": true,
+        "extra": null
+      },
+      "ru": {
+        "title": "САЛАТ ИЗ ТОМАТОВ С РУККОЛОЙ",
+        "yield": null,
+        "ingredients": [
+          {
+            "kind": "raw",
+            "name": "томат «эрлум»",
+            "recipeId": null,
+            "raw": "0.125 кг",
+            "amount": 0.125,
+            "unit": "кг"
+          },
+          {
+            "kind": "raw",
+            "name": "черри-томаты",
+            "recipeId": null,
+            "raw": "0.075 кг",
+            "amount": 0.075,
+            "unit": "кг"
+          },
+          {
+            "kind": "raw",
+            "name": "руккола",
+            "recipeId": null,
+            "raw": "0.01 кг",
+            "amount": 0.01,
+            "unit": "кг"
+          },
+          {
+            "kind": "raw",
+            "name": "оливковое масло",
+            "recipeId": null,
+            "raw": "1 унц.",
+            "amount": 1,
+            "unit": "унц."
+          },
+          {
+            "kind": "raw",
+            "name": "бальзамический уксус",
+            "recipeId": null,
+            "raw": "0.5 унц.",
+            "amount": 0.5,
+            "unit": "унц."
+          }
+        ],
+        "steps": [],
+        "isEmpty": false,
+        "ingredientsOnly": true,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "flan",
+    "kind": "dish",
+    "translations": {
+      "es": {
+        "title": "FLAN CREMOSO",
+        "yield": null,
+        "ingredients": [
+          {
+            "kind": "sub-recipe",
+            "name": "flan cremoso",
+            "recipeId": "flan-queso",
+            "raw": "1 PZA",
+            "amount": 1,
+            "unit": "PZA"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "caramelo de cerveza",
+            "recipeId": null,
+            "raw": "0.06 LT",
+            "amount": 0.06,
+            "unit": "LT"
+          },
+          {
+            "kind": "raw",
+            "name": "queso doble crema torito",
+            "recipeId": null,
+            "raw": "0.025 KG",
+            "amount": 0.025,
+            "unit": "KG"
+          }
+        ],
+        "steps": [
+          "En una copa de acero desmoldar un flan, bañar con el caramelo de cerveza y coronar con queso torito rallado"
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "СЛИВОЧНЫЙ ФЛАН",
+        "yield": null,
+        "ingredients": [
+          {
+            "kind": "sub-recipe",
+            "name": "сливочный флан",
+            "recipeId": "flan-queso",
+            "raw": "1 шт.",
+            "amount": 1,
+            "unit": "шт."
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "пивная карамель",
+            "recipeId": null,
+            "raw": "0.06 л",
+            "amount": 0.06,
+            "unit": "л"
+          },
+          {
+            "kind": "raw",
+            "name": "сыр двойных сливок «торито»",
+            "recipeId": null,
+            "raw": "0.025 кг",
+            "amount": 0.025,
+            "unit": "кг"
+          }
+        ],
+        "steps": [
+          "В стальной креманке выложить флан из формы, полить пивной карамелью и увенчать тёртым сыром «торито»."
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "gaznate",
+    "kind": "dish",
+    "translations": {
+      "es": {
+        "title": "GAZNATE DE QUESO MADURO Y ATE",
+        "yield": null,
+        "ingredients": [
+          {
+            "kind": "raw",
+            "name": "lamina de wonton",
+            "recipeId": null,
+            "raw": "1 PZA",
+            "amount": 1,
+            "unit": "PZA"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "relleno de queso maduro",
+            "recipeId": null,
+            "raw": "0.09 KG",
+            "amount": 0.09,
+            "unit": "KG"
+          },
+          {
+            "kind": "raw",
+            "name": "ate de guayaba",
+            "recipeId": null,
+            "raw": "0.04 KG",
+            "amount": 0.04,
+            "unit": "KG"
+          }
+        ],
+        "steps": [
+          "En un cilindro metalico previamente engrasado enrollar la lamina de wonton y llevar a fritura profunda a 180°c por aproximadamente 4 min o hasta que dore completamente y se separe del cilindro",
+          "Dejar reposar y una vez frio colocar las barras de ate en un lado para terminar rellenando con la crema de queso, servir en un plato alargado chico"
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "ГАЗНАТЕ С ВЫДЕРЖАННЫМ СЫРОМ И АТЕ",
+        "yield": null,
+        "ingredients": [
+          {
+            "kind": "raw",
+            "name": "лист вонтон",
+            "recipeId": null,
+            "raw": "1 шт.",
+            "amount": 1,
+            "unit": "шт."
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "начинка из выдержанного сыра",
+            "recipeId": null,
+            "raw": "0.09 кг",
+            "amount": 0.09,
+            "unit": "кг"
+          },
+          {
+            "kind": "raw",
+            "name": "ате (фруктовая паста) из гуавы",
+            "recipeId": null,
+            "raw": "0.04 кг",
+            "amount": 0.04,
+            "unit": "кг"
+          }
+        ],
+        "steps": [
+          "На заранее смазанном металлическом цилиндре обернуть лист вонтона и обжарить во фритюре при 180°C около 4 минут или до полного золотистого цвета, пока не отделится от цилиндра.",
+          "Дать остыть, затем с одной стороны выложить брусочки ате гуавы и заполнить кремом из выдержанного сыра. Подавать на маленькой продолговатой тарелке."
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  },
+  {
+    "id": "gansito",
+    "kind": "dish",
+    "translations": {
+      "es": {
+        "title": "LITTLE GOOSE",
+        "yield": null,
+        "ingredients": [
+          {
+            "kind": "sub-recipe",
+            "name": "bizcocho suave",
+            "recipeId": "bizcocho-vainilla",
+            "raw": "1 PZA",
+            "amount": 1,
+            "unit": "PZA"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "gel de fresa natural",
+            "recipeId": "jalea-fresa",
+            "raw": "0.06 KG",
+            "amount": 0.06,
+            "unit": "KG"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "betun de marshmellow",
+            "recipeId": "betun-malvavisco",
+            "raw": "0.045 KG",
+            "amount": 0.045,
+            "unit": "KG"
+          },
+          {
+            "kind": "raw",
+            "name": "chocolate cobertura",
+            "recipeId": null,
+            "raw": "0.07 KG",
+            "amount": 0.07,
+            "unit": "KG"
+          }
+        ],
+        "steps": [
+          "Se coloca la base del bizcocho (la pieza consta de una parte mas gruesa y una delgada) cubrimos con el gel de fresa en forma de botones",
+          "Tapamos con la parte delgada y bañamos de chocolate cobertura, una vez frio decorar con el betun en forma de cordel continuo horizontal"
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      },
+      "ru": {
+        "title": "«ГАНСИТО» (ДЕСЕРТ)",
+        "yield": null,
+        "ingredients": [
+          {
+            "kind": "sub-recipe",
+            "name": "мягкий бисквит",
+            "recipeId": "bizcocho-vainilla",
+            "raw": "1 шт.",
+            "amount": 1,
+            "unit": "шт."
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "клубничное желе",
+            "recipeId": "jalea-fresa",
+            "raw": "0.06 кг",
+            "amount": 0.06,
+            "unit": "кг"
+          },
+          {
+            "kind": "sub-recipe",
+            "name": "крем-суфле «маршмеллоу»",
+            "recipeId": "betun-malvavisco",
+            "raw": "0.045 кг",
+            "amount": 0.045,
+            "unit": "кг"
+          },
+          {
+            "kind": "raw",
+            "name": "шоколадная глазурь",
+            "recipeId": null,
+            "raw": "0.07 кг",
+            "amount": 0.07,
+            "unit": "кг"
+          }
+        ],
+        "steps": [
+          "Выложить основу бисквита (изделие состоит из более толстой и более тонкой части), покрыть клубничным желе точками.",
+          "Накрыть тонкой частью и полить шоколадной глазурью. После остывания декорировать кремом «маршмеллоу» непрерывной горизонтальной полосой в форме шнура."
+        ],
+        "isEmpty": false,
+        "ingredientsOnly": false,
+        "extra": null
+      }
+    }
+  }
+]

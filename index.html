@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ASTRONOMIC — Recetario / Рецептурник</title>
+<style>
+  :root{
+    --accent:#b5451b;
+    --accent-light:#f2ece6;
+    --mp:#6b8e23;
+    --sr:#4a6fa5;
+    --border:#e2ddd6;
+  }
+  *{box-sizing:border-box;}
+  body{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+    margin:0; background:#faf8f5; color:#222;
+  }
+  header{
+    position:sticky; top:0; z-index:10;
+    background:#fff; border-bottom:2px solid var(--accent);
+    padding:14px 18px;
+  }
+  .header-row{
+    display:flex; align-items:center; gap:14px; flex-wrap:wrap;
+    max-width:1000px; margin:0 auto;
+  }
+  h1{
+    font-size:20px; margin:0; color:var(--accent);
+    letter-spacing:1px; white-space:nowrap;
+  }
+  .search-box{
+    flex:1; min-width:180px;
+    position:relative;
+  }
+  .search-box input{
+    width:100%; padding:9px 14px 9px 34px; border-radius:20px;
+    border:1px solid var(--border); font-size:14px; outline:none;
+  }
+  .search-box input:focus{ border-color:var(--accent); }
+  .search-box::before{
+    content:"🔍"; position:absolute; left:12px; top:50%;
+    transform:translateY(-50%); font-size:13px; opacity:0.5;
+  }
+  .lang-toggle{
+    display:flex; border:1px solid var(--border); border-radius:20px; overflow:hidden;
+    flex-shrink:0;
+  }
+  .lang-toggle button{
+    border:none; background:#fff; padding:8px 16px; font-size:13px;
+    cursor:pointer; font-weight:600; color:#888;
+  }
+  .lang-toggle button.active{
+    background:var(--accent); color:#fff;
+  }
+  nav.tabs{
+    max-width:1000px; margin:10px auto 0; display:flex; gap:8px;
+  }
+  nav.tabs button{
+    border:none; background:var(--accent-light); color:var(--accent);
+    padding:6px 16px; border-radius:14px; font-size:13px; cursor:pointer; font-weight:600;
+  }
+  nav.tabs button.active{ background:var(--accent); color:#fff; }
+
+  main{ max-width:1000px; margin:20px auto; padding:0 16px 60px; }
+  .section-title{
+    font-size:15px; text-transform:uppercase; letter-spacing:1px;
+    color:#999; margin:26px 0 12px; padding-bottom:6px; border-bottom:1px solid var(--border);
+  }
+  .section-title:first-child{ margin-top:0; }
+
+  .recipe{
+    background:#fff; border:1px solid var(--border); border-radius:10px;
+    padding:16px 20px; margin-bottom:14px;
+  }
+  .recipe h3{
+    margin:0 0 4px; color:var(--accent); font-size:16px; letter-spacing:0.3px;
+    cursor:pointer; display:flex; justify-content:space-between; align-items:center;
+  }
+  .recipe h3 .chevron{ font-size:12px; color:#bbb; transition:transform .15s; }
+  .recipe.open h3 .chevron{ transform:rotate(90deg); }
+  .yield{ font-size:12px; color:#999; font-style:italic; margin-bottom:8px; }
+  .body{ display:none; margin-top:10px; }
+  .recipe.open .body{ display:block; }
+
+  table.ing{ width:100%; border-collapse:collapse; font-size:13.5px; margin-bottom:10px; }
+  table.ing th{
+    text-align:left; background:var(--accent-light); color:#8a4a2c;
+    font-size:11px; text-transform:uppercase; padding:5px 8px; border-bottom:1px solid var(--border);
+  }
+  table.ing td{ padding:4px 8px; border-bottom:1px solid #f2f0ec; }
+  table.ing td.qty{ text-align:right; white-space:nowrap; font-variant-numeric:tabular-nums; }
+  .tag{
+    display:inline-block; font-size:10px; padding:1px 6px; border-radius:3px; color:#fff; font-weight:600;
+  }
+  .tag.mp{ background:var(--mp); }
+  .tag.sr{ background:var(--sr); }
+  .method-title{
+    font-size:11px; text-transform:uppercase; color:#8a4a2c; font-weight:700; margin:10px 0 4px;
+  }
+  .method p{ margin:0 0 8px; font-size:13.5px; line-height:1.5; text-align:justify; }
+  .empty-note, .plain-note{
+    font-size:13px; color:#888; font-style:italic; background:#faf6f0;
+    border-left:3px solid #d99a6c; padding:6px 10px; margin-top:6px;
+  }
+  .highlight{ background:#fff2b0; border-radius:2px; }
+  .no-results{ text-align:center; color:#999; padding:40px 0; font-size:15px; }
+  .legend{ font-size:12px; color:#888; margin-bottom:14px; }
+  footer{ text-align:center; color:#bbb; font-size:11px; padding:20px 0 40px; }
+
+  @media (max-width:600px){
+    h1{ font-size:16px; }
+    .recipe{ padding:12px 14px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-row">
+    <h1>ASTRONOMIC</h1>
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Поиск / Buscar...">
+    </div>
+    <div class="lang-toggle">
+      <button id="btnRu" class="active">RU</button>
+      <button id="btnEs">ES</button>
+    </div>
+  </div>
+  <nav class="tabs">
+    <button id="tabAll" class="active" data-tab="all">Все / Todo</button>
+    <button id="tabBase" data-tab="base">Заготовки / Base</button>
+    <button id="tabDishes" data-tab="dishes">Блюда / Platillos</button>
+  </nav>
+</header>
+
+<main id="main">
+  <div class="legend" id="legend"></div>
+  <div id="content"></div>
+  <div class="no-results" id="noResults" style="display:none"></div>
+</main>
+
+<footer>ASTRONOMIC — Recetario interno / Внутренний рецептурник</footer>
+
+<script src="data.js"></script>
+<script>
+let lang = 'ru';
+let activeTab = 'all';
+let query = '';
+
+const LABELS = {
+  ru: { sectionBase:'Часть I. Базовые заготовки', sectionDishes:'Часть II. Готовые блюда',
+        legend:'<span class="tag sr">ЗГ</span> — заготовка (полуфабрикат) &nbsp;&nbsp; <span class="tag mp">СМ</span> — сырьё (закупаемый продукт)',
+        noResults:'Ничего не найдено', empty:'В исходном файле рецептура не заполнена.',
+        note:'Для этого блюда в исходном файле указан только состав ингредиентов, без отдельного описания сборки.',
+        placeholder:'Поиск по названию или ингредиенту...' },
+  es: { sectionBase:'Parte I. Preparaciones base', sectionDishes:'Parte II. Recetas de platillos',
+        legend:'<span class="tag sr">SR</span> — sub-receta (preparación base) &nbsp;&nbsp; <span class="tag mp">MP</span> — materia prima',
+        noResults:'No se encontraron resultados', empty:'La receta no está completa en el archivo original.',
+        note:'Para este platillo el archivo original solo indica los ingredientes, sin descripción de montaje.',
+        placeholder:'Buscar por nombre o ingrediente...' }
+};
+
+function norm(s){
+  return (s||'').toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g,''); // strip accents for ES search
+}
+
+function highlight(text, q){
+  if(!q) return escapeHtml(text);
+  const t = escapeHtml(text);
+  const idx = norm(text).indexOf(norm(q));
+  if(idx === -1) return t;
+  // fallback: simple case-insensitive highlight on escaped text
+  const re = new RegExp('(' + q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ')', 'ig');
+  return t.replace(re, '<span class="highlight">$1</span>');
+}
+
+function escapeHtml(s){
+  return (s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function matches(item, q){
+  if(!q) return true;
+  const nq = norm(q);
+  const d = item[lang];
+  const other = item[lang === 'ru' ? 'es' : 'ru'];
+  const haystacks = [d.title, other.title];
+  (d.ing||[]).forEach(row => haystacks.push(row.join(' ')));
+  (other.ing||[]).forEach(row => haystacks.push(row.join(' ')));
+  (d.proc||[]).forEach(p => haystacks.push(p));
+  if(d.extra){ haystacks.push(d.extra.title); (d.extra.ing||[]).forEach(r=>haystacks.push(r.join(' '))); }
+  return haystacks.some(h => norm(h).includes(nq));
+}
+
+function renderIngTable(rows, hasTypeCol, q){
+  if(!rows || !rows.length) return '';
+  let head = hasTypeCol
+    ? `<tr><th></th><th>${lang==='ru'?'Ингредиент':'Ingrediente'}</th><th>${lang==='ru'?'Ед.':'Ud.'}</th><th>${lang==='ru'?'Кол-во':'Cant.'}</th></tr>`
+    : `<tr><th>${lang==='ru'?'Ингредиент':'Ingrediente'}</th><th>${lang==='ru'?'Кол-во':'Cantidad'}</th></tr>`;
+  let body = rows.map(r=>{
+    if(hasTypeCol){
+      const [type, name, unit, qty] = r;
+      const tagClass = type.toLowerCase()==='sr'||type==='ЗГ' ? 'sr' : 'mp';
+      return `<tr><td><span class="tag ${tagClass}">${type}</span></td><td>${highlight(name,q)}</td><td>${unit}</td><td class="qty">${qty}</td></tr>`;
+    } else {
+      const [name, qty] = r;
+      return `<tr><td>${highlight(name,q)}</td><td class="qty">${qty}</td></tr>`;
+    }
+  }).join('');
+  return `<table class="ing">${head}${body}</table>`;
+}
+
+function renderRecipe(item, kind, q, forceOpen){
+  const d = item[lang];
+  const hasTypeCol = kind === 'dishes';
+  let html = `<div class="recipe ${forceOpen?'open':''}" data-id="${item.id}">`;
+  html += `<h3 onclick="toggleRecipe('${item.id}')"><span>${highlight(d.title, q)}</span><span class="chevron">▶</span></h3>`;
+  if(d.yield) html += `<div class="yield">${escapeHtml(d.yield)}</div>`;
+  html += `<div class="body">`;
+  if(d.empty){
+    html += `<div class="empty-note">${LABELS[lang].empty}</div>`;
+  } else {
+    html += renderIngTable(d.ing, hasTypeCol, q);
+    if(d.proc && d.proc.length){
+      html += `<div class="method-title">${lang==='ru'?'Приготовление':'Procedimiento'}</div>`;
+      html += `<div class="method">` + d.proc.map(p=>`<p>${highlight(p,q)}</p>`).join('') + `</div>`;
+    }
+    if(d.note){
+      html += `<div class="plain-note">${LABELS[lang].note}</div>`;
+    }
+    if(d.extra){
+      html += `<div class="method-title">${highlight(d.extra.title,q)}</div>`;
+      html += renderIngTable(d.extra.ing, false, q);
+      html += `<div class="method">` + d.extra.proc.map(p=>`<p>${highlight(p,q)}</p>`).join('') + `</div>`;
+    }
+  }
+  html += `</div></div>`;
+  return html;
+}
+
+function toggleRecipe(id){
+  const el = document.querySelector(`.recipe[data-id="${id}"]`);
+  if(el) el.classList.toggle('open');
+}
+
+function render(){
+  document.getElementById('legend').innerHTML = LABELS[lang].legend;
+  document.getElementById('searchInput').placeholder = LABELS[lang].placeholder;
+
+  const q = query.trim();
+  const showBase = activeTab === 'all' || activeTab === 'base';
+  const showDishes = activeTab === 'all' || activeTab === 'dishes';
+
+  let baseItems = showBase ? DATA.base.filter(item => matches(item, q)) : [];
+  let dishItems = showDishes ? DATA.dishes.filter(item => matches(item, q)) : [];
+
+  let html = '';
+  const forceOpen = q.length > 0;
+
+  if(baseItems.length){
+    html += `<div class="section-title">${LABELS[lang].sectionBase}</div>`;
+    html += baseItems.map(item => renderRecipe(item, 'base', q, forceOpen)).join('');
+  }
+  if(dishItems.length){
+    html += `<div class="section-title">${LABELS[lang].sectionDishes}</div>`;
+    html += dishItems.map(item => renderRecipe(item, 'dishes', q, forceOpen)).join('');
+  }
+
+  document.getElementById('content').innerHTML = html;
+  const noRes = document.getElementById('noResults');
+  if(!baseItems.length && !dishItems.length){
+    noRes.style.display = 'block';
+    noRes.textContent = LABELS[lang].noResults;
+  } else {
+    noRes.style.display = 'none';
+  }
+}
+
+document.getElementById('btnRu').addEventListener('click', ()=>{
+  lang='ru';
+  document.getElementById('btnRu').classList.add('active');
+  document.getElementById('btnEs').classList.remove('active');
+  document.documentElement.lang='ru';
+  render();
+});
+document.getElementById('btnEs').addEventListener('click', ()=>{
+  lang='es';
+  document.getElementById('btnEs').classList.add('active');
+  document.getElementById('btnRu').classList.remove('active');
+  document.documentElement.lang='es';
+  render();
+});
+
+['tabAll','tabBase','tabDishes'].forEach(id=>{
+  document.getElementById(id).addEventListener('click', (e)=>{
+    document.querySelectorAll('nav.tabs button').forEach(b=>b.classList.remove('active'));
+    e.target.classList.add('active');
+    activeTab = e.target.dataset.tab;
+    render();
+  });
+});
+
+document.getElementById('searchInput').addEventListener('input', (e)=>{
+  query = e.target.value;
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

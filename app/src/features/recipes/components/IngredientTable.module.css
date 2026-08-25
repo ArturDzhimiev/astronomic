@@ -1,0 +1,71 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--text-md);
+}
+
+.table th {
+  padding: 0 var(--space-3) var(--space-2) 0;
+  border-bottom: 1px solid var(--color-line);
+  text-align: left;
+  font-size: var(--text-xs);
+  font-weight: 500;
+  letter-spacing: var(--tracking-wider);
+  text-transform: uppercase;
+  color: var(--color-text-faint);
+  white-space: nowrap;
+}
+
+.table td {
+  padding: var(--space-2) var(--space-3) var(--space-2) 0;
+  border-bottom: 1px solid var(--color-line-soft);
+  vertical-align: baseline;
+}
+
+.table td:last-child,
+.table th:last-child {
+  padding-right: 0;
+}
+
+.numeric {
+  text-align: right;
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.unit {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+  color: var(--color-text-faint);
+  white-space: nowrap;
+}
+
+.kind {
+  width: 1%;
+  padding-right: var(--space-3);
+}
+
+/* Заготовка, у которой есть своя карточка */
+.link {
+  border-bottom: 1px solid var(--color-line);
+  transition: border-color 0.15s ease;
+}
+
+.link::after {
+  content: '↗';
+  margin-left: 5px;
+  font-size: var(--text-xs);
+  color: var(--color-text-faint);
+}
+
+.link:hover {
+  border-bottom-color: var(--color-ink);
+}
+
+.link:hover::after {
+  color: var(--color-ink);
+}
