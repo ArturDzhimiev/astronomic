@@ -29,7 +29,7 @@
 .wordmark {
   display: block;
   font-size: var(--text-xl);
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.02em;
   line-height: 1.1;
   color: var(--color-ink);
