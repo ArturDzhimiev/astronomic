@@ -1,33 +1,33 @@
-/** Доменная модель рецептурника. */
+/** Domain model of the recipe book. */
 
 export type Language = 'ru' | 'es'
 
 export type RecipeKind = 'base' | 'dish'
 
-/** Роль ингредиента в блюде: заготовка (ЗГ/SR) или сырьё (СМ/MP). */
+/** The ingredient's role in a dish: a sub-recipe (SR) or raw material (MP). */
 export type IngredientKind = 'sub-recipe' | 'raw'
 
 export interface Quantity {
-  /** Исходная строка из рецептуры, например «500 gr» или «по вкусу». */
+  /** The raw string from the recipe, e.g. "500 gr" or "to taste". */
   raw: string
-  /** Числовое значение, если его удалось распознать (нужно для себестоимости). */
+  /** The numeric value when it could be parsed (needed for cost calculation). */
   amount: number | null
   unit: string | null
 }
 
 export interface Ingredient extends Quantity {
-  /** null для базовых заготовок — там разделение на ЗГ/СМ не задано. */
+  /** null for base recipes — the source does not split them into SR/MP. */
   kind: IngredientKind | null
   name: string
   /**
-   * id карточки заготовки, если она есть в рецептурнике. Связи вычисляются
-   * при конвертации данных: в исходном файле заготовки указаны свободным
-   * текстом, а часть из них вообще отсутствует — тогда здесь null.
+   * The id of the sub-recipe card when the recipe book contains one. Links are
+   * resolved while converting the data: the source lists sub-recipes as free
+   * text and some are missing entirely — those stay null.
    */
   recipeId: string | null
 }
 
-/** Вложенная мини-рецептура внутри карточки (например, пико-де-гальо к крему). */
+/** A nested mini-recipe inside a card (e.g. pico de gallo served with a cream). */
 export interface RecipeSection {
   title: string
   ingredients: Ingredient[]
@@ -36,13 +36,13 @@ export interface RecipeSection {
 
 export interface RecipeContent {
   title: string
-  /** Выход: «10 шт. на подачу» и т.п. */
+  /** Yield: "10 pieces per service" and the like. */
   yield: string | null
   ingredients: Ingredient[]
   steps: string[]
-  /** Рецептура не заполнена в исходном файле. */
+  /** The recipe is not filled in in the source file. */
   isEmpty: boolean
-  /** Есть только состав, без описания сборки. */
+  /** Ingredients only, without a method description. */
   ingredientsOnly: boolean
   extra: RecipeSection | null
 }
@@ -53,5 +53,5 @@ export interface Recipe {
   translations: Record<Language, RecipeContent>
 }
 
-/** Фильтр списка рецептов. */
+/** Recipe list filter. */
 export type RecipeTab = 'all' | 'base' | 'dish'

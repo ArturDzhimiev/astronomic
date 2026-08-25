@@ -17,3 +17,18 @@
   max-width: var(--layout-max-width);
   margin: 0 auto;
 }
+
+@media (max-width: 600px) {
+  /*
+   * The content owns the gutters (list rows already carry their own 16px) so the
+   * expanded recipe's backdrop and the rules can span the full screen width.
+   */
+  .main {
+    padding: var(--space-5) 0 var(--space-6);
+  }
+
+  .footer {
+    padding-left: var(--space-4);
+    padding-right: var(--space-4);
+  }
+}

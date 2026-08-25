@@ -1,6 +1,6 @@
 /*
- * Дизайн-токены. Монохром: белый лист, чёрная краска, серые линии.
- * Акцент — не цвет, а контраст и разрядка, как в наборе логотипа.
+ * Design tokens. Monochrome: white paper, black ink, grey rules.
+ * The accent is contrast and letter-spacing rather than colour, like the logo.
  */
 :root {
   color-scheme: light;
@@ -19,7 +19,7 @@
 
   --color-highlight-bg: #ebebeb;
 
-  /* Геометрический строчный шрифт — ближе всего к логотипу */
+  /* A geometric lowercase face — the closest match to the logo */
   --font-sans:
     'Avenir Next', Avenir, 'Futura', 'Helvetica Neue', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, sans-serif;

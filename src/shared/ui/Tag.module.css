@@ -12,12 +12,12 @@
   white-space: nowrap;
 }
 
-/* Заготовка — то, что бар готовит сам: выделяем акцентом */
+/* Sub-recipe — something the bar makes itself: emphasised */
 .subRecipe {
   color: var(--color-ink);
 }
 
-/* Сырьё — закупается как есть: нейтрально */
+/* Raw material — bought as is: neutral */
 .raw {
   color: var(--color-text-faint);
 }

@@ -5,9 +5,9 @@ import { AppLayout } from './AppLayout'
 import { NotFoundPage } from './NotFoundPage'
 
 /**
- * Hash-роутинг: GitHub Pages отдаёт только статику и не умеет
- * возвращать index.html на произвольный путь, а с `#/` прямые ссылки
- * и перезагрузка страницы работают без серверных правил.
+ * Hash routing: GitHub Pages only serves static files and cannot fall back to
+ * index.html for an arbitrary path. With `#/` URLs, deep links and page reloads
+ * work without any server-side rules.
  */
 export const router = createHashRouter([
   {

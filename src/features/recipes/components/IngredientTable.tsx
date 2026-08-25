@@ -16,7 +16,7 @@ export function IngredientTable({ ingredients, query }: Props) {
 
   if (ingredients.length === 0) return null
 
-  // Колонки ЗГ/СМ и «ед.» есть только у блюд — у заготовок их в исходнике нет.
+  // The kind and unit columns exist only for dishes — base recipes lack them in the source.
   const withKind = ingredients.some((ingredient) => ingredient.kind !== null)
 
   return (
@@ -47,7 +47,7 @@ export function IngredientTable({ ingredients, query }: Props) {
                 )}
               </td>
             )}
-            <td>
+            <td className="capitalize-first">
               {ingredient.recipeId ? (
                 <Link className={styles.link} to={`/recipes/${ingredient.recipeId}`}>
                   <HighlightedText text={ingredient.name} query={query} />

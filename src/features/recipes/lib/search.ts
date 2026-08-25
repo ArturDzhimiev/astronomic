@@ -1,39 +1,17 @@
 import { fold } from '../../../shared/lib/text'
-import type { Recipe, RecipeContent, RecipeTab } from '../model/types'
+import type { Recipe, RecipeTab } from '../model/types'
 
 /**
- * Поиск идёт сразу по обоим языкам: на кухне название могут спросить
- * по-испански, а искать в русском интерфейсе (и наоборот).
+ * Search runs over titles in both languages at once: in the kitchen a dish may
+ * be named in Spanish while being looked up in the Russian UI, and vice versa.
  */
-function contentToText(content: RecipeContent): string {
-  const parts: string[] = [content.title, content.yield ?? '']
-
-  for (const ingredient of content.ingredients) {
-    parts.push(ingredient.name, ingredient.raw)
-  }
-  parts.push(...content.steps)
-
-  if (content.extra) {
-    parts.push(content.extra.title)
-    for (const ingredient of content.extra.ingredients) {
-      parts.push(ingredient.name, ingredient.raw)
-    }
-    parts.push(...content.extra.steps)
-  }
-
-  return parts.join(' ')
-}
-
-/** Индекс строится один раз на рецепт и переиспользуется между рендерами. */
 const searchIndex = new Map<string, string>()
 
 function getSearchIndex(recipe: Recipe): string {
   const cached = searchIndex.get(recipe.id)
   if (cached !== undefined) return cached
 
-  const text = fold(
-    [contentToText(recipe.translations.ru), contentToText(recipe.translations.es)].join(' '),
-  )
+  const text = fold(`${recipe.translations.ru.title} ${recipe.translations.es.title}`)
   searchIndex.set(recipe.id, text)
   return text
 }

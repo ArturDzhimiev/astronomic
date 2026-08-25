@@ -5,15 +5,15 @@ import { RecipeBody } from '../components/RecipeBody'
 import { useLanguage } from '../../../i18n/useLanguage'
 import styles from './RecipePage.module.css'
 
-/** Отдельная страница рецепта — чтобы можно было прислать прямую ссылку. */
+/** Standalone recipe page, so a direct link can be shared. */
 export function RecipePage() {
   const { recipeId } = useParams()
   const { language, t } = useLanguage()
   const navigate = useNavigate()
   const location = useLocation()
 
-  // Если пришли переходом внутри приложения (например, из блюда в заготовку),
-  // возвращаем на предыдущий экран; по прямой ссылке — на список.
+  // When we got here from inside the app (e.g. from a dish to its sub-recipe),
+  // go back to the previous screen; on a direct link, go to the list.
   const cameFromApp = location.key !== 'default'
   const back = cameFromApp ? (
     <button type="button" className={styles.back} onClick={() => navigate(-1)}>
@@ -39,9 +39,9 @@ export function RecipePage() {
   const content = recipe.translations[language]
 
   return (
-    <article>
+    <article className={styles.page}>
       {back}
-      <h2 className={styles.title}>{content.title}</h2>
+      <h2 className={`${styles.title} sentence-case`}>{content.title}</h2>
       {content.yield && <p className={styles.yield}>{content.yield}</p>}
       <div className={styles.divider} />
       {recipe.kind === 'dish' && <Legend />}

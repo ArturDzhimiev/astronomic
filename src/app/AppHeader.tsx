@@ -14,7 +14,7 @@ const LANGUAGES: SegmentedOption<Language>[] = [
 export function AppHeader() {
   const { language, setLanguage, t } = useLanguage()
   const { filters, setQuery, setTab } = useRecipeFilters()
-  // Поиск и разделы нужны только на списке рецептов.
+  // Search and tabs only make sense on the recipe list.
   const isList = useMatch('/') !== null
 
   const tabs: SegmentedOption<RecipeTab>[] = [

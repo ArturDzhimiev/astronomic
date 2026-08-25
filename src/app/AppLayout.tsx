@@ -1,4 +1,4 @@
-import { Outlet } from 'react-router-dom'
+import { Outlet, ScrollRestoration } from 'react-router-dom'
 import { useLanguage } from '../i18n/useLanguage'
 import { AppHeader } from './AppHeader'
 import styles from './AppLayout.module.css'
@@ -8,6 +8,8 @@ export function AppLayout() {
 
   return (
     <>
+      {/* A new navigation starts at the top; going back restores the previous position */}
+      <ScrollRestoration />
       <AppHeader />
       <main className={styles.main}>
         <Outlet />

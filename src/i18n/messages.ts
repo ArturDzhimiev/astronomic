@@ -1,12 +1,12 @@
 import type { Language } from '../features/recipes/model/types'
 
-/** Все пользовательские строки интерфейса. Ключи одинаковы для всех языков. */
+/** Every user-facing UI string. The keys are identical across languages. */
 const ru = {
   brand: 'astronomic',
   tagline: 'alta cocina / alma de bar',
   subtitle: 'Рецептурник',
-  searchPlaceholder: 'Поиск по названию или ингредиенту...',
-  searchLabel: 'Поиск по рецептам',
+  searchPlaceholder: 'Поиск по названию...',
+  searchLabel: 'Поиск по названиям рецептов',
   languageLabel: 'Язык интерфейса',
 
   tabAll: 'Все',
@@ -52,8 +52,8 @@ const es: Messages = {
   brand: 'astronomic',
   tagline: 'alta cocina / alma de bar',
   subtitle: 'Recetario',
-  searchPlaceholder: 'Buscar por nombre o ingrediente...',
-  searchLabel: 'Buscar recetas',
+  searchPlaceholder: 'Buscar por nombre...',
+  searchLabel: 'Buscar recetas por nombre',
   languageLabel: 'Idioma de la interfaz',
 
   tabAll: 'Todo',

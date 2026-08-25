@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { HighlightedText } from '../../../shared/ui/HighlightedText'
 import { ChevronIcon } from '../../../shared/ui/icons'
@@ -10,22 +9,15 @@ import styles from './RecipeCard.module.css'
 interface Props {
   recipe: Recipe
   query?: string
-  /** При активном поиске рецепты раскрыты сразу. */
-  defaultOpen?: boolean
-  /** Порядковый номер в разделе. */
+  /** The list owns the expanded state and collapses everything on search. */
+  open: boolean
+  onToggle: (open: boolean) => void
+  /** Position within the section. */
   index: number
 }
 
-export function RecipeCard({ recipe, query, defaultOpen = false, index }: Props) {
+export function RecipeCard({ recipe, query, open, onToggle, index }: Props) {
   const { language, t } = useLanguage()
-  const [open, setOpen] = useState(defaultOpen)
-  const [previousDefault, setPreviousDefault] = useState(defaultOpen)
-
-  // Сброс раскрытия при смене режима поиска — без эффекта, прямо в рендере.
-  if (previousDefault !== defaultOpen) {
-    setPreviousDefault(defaultOpen)
-    setOpen(defaultOpen)
-  }
 
   const content = recipe.translations[language]
 
@@ -33,12 +25,12 @@ export function RecipeCard({ recipe, query, defaultOpen = false, index }: Props)
     <details
       className={styles.item}
       open={open}
-      onToggle={(event) => setOpen(event.currentTarget.open)}
+      onToggle={(event) => onToggle(event.currentTarget.open)}
     >
       <summary className={styles.summary}>
         <span className={styles.index}>{String(index + 1).padStart(2, '0')}</span>
         <span className={styles.heading}>
-          <span className={styles.title}>
+          <span className={`${styles.title} sentence-case`}>
             <HighlightedText text={content.title} query={query} />
           </span>
           {content.yield && <span className={styles.yield}>{content.yield}</span>}

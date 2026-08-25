@@ -5,7 +5,7 @@ import type { Messages } from './messages'
 export interface LanguageContextValue {
   language: Language
   setLanguage: (language: Language) => void
-  /** Словарь строк для текущего языка. */
+  /** The string dictionary for the current language. */
   t: Messages
 }
 

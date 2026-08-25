@@ -7,7 +7,7 @@ export function NotFoundPage() {
 
   return (
     <div className={styles.page}>
-      <h2 className={styles.title}>{t.notFoundTitle}</h2>
+      <h2 className={`${styles.title} sentence-case`}>{t.notFoundTitle}</h2>
       <p className={styles.text}>{t.notFoundText}</p>
       <Link className={styles.link} to="/">
         ← {t.backToList}

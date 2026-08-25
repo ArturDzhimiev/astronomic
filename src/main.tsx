@@ -4,7 +4,7 @@ import { App } from './app/App'
 import './styles/global.css'
 
 const container = document.getElementById('root')
-if (!container) throw new Error('Не найден #root — проверь index.html')
+if (!container) throw new Error('#root not found — check index.html')
 
 createRoot(container).render(
   <StrictMode>

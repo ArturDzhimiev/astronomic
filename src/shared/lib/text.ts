@@ -1,17 +1,17 @@
-/** Работа с текстом для поиска: свёртка регистра/диакритики и подсветка. */
+/** Text helpers for search: case/diacritics folding and highlighting. */
 
 const COMBINING_MARKS = /[\u0300-\u036f]/g
 
 export interface FoldedText {
-  /** Строка в нижнем регистре без диакритики: «Jalapeño» -> «jalapeno». */
+  /** Lowercased string without diacritics: "Jalapeño" -> "jalapeno". */
   folded: string
-  /** Для каждого символа folded — индекс исходного символа. */
+  /** For every character of `folded`, the index of the source character. */
   map: number[]
 }
 
 /**
- * Свёртка с сохранением соответствия индексов, чтобы подсветку можно было
- * применить к исходному тексту: поиск «jalapeno» находит «jalapeño».
+ * Folds the text while keeping an index map, so the highlight can be applied to
+ * the original text: searching for "jalapeno" matches "jalapeño".
  */
 export function foldWithMap(text: string): FoldedText {
   let folded = ''
@@ -37,7 +37,7 @@ export interface MatchRange {
   end: number
 }
 
-/** Все вхождения запроса в текст, в индексах ИСХОДНОЙ строки. */
+/** Every match of the query, in indices of the SOURCE string. */
 export function findMatches(text: string, query: string): MatchRange[] {
   const needle = fold(query.trim())
   if (!needle) return []

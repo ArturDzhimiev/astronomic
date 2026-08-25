@@ -49,7 +49,7 @@
   padding-right: var(--space-3);
 }
 
-/* Заготовка, у которой есть своя карточка */
+/* A sub-recipe that has a card of its own */
 .link {
   border-bottom: 1px solid var(--color-line);
   transition: border-color 0.15s ease;

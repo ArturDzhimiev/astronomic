@@ -5,7 +5,7 @@ import { messages } from './messages'
 
 const STORAGE_KEY = 'astronomic.language'
 
-// Кухня и поставщики работают на испанском — он и язык по умолчанию.
+// The kitchen and the suppliers work in Spanish, so that is the default.
 const DEFAULT_LANGUAGE: Language = 'es'
 
 function isLanguage(value: unknown): value is Language {
@@ -17,7 +17,7 @@ function readStoredLanguage(): Language {
     const stored = localStorage.getItem(STORAGE_KEY)
     if (isLanguage(stored)) return stored
   } catch {
-    // приватный режим Safari может запрещать localStorage — не критично
+    // Safari private mode can block localStorage — not critical
   }
   return DEFAULT_LANGUAGE
 }
@@ -30,7 +30,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     try {
       localStorage.setItem(STORAGE_KEY, next)
     } catch {
-      // см. выше
+      // see above
     }
   }, [])
 

@@ -3,11 +3,10 @@ import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
 
 /**
- * GitHub Pages отдаёт проект по адресу https://<user>.github.io/<repo>/,
- * поэтому в CI база должна быть «/<repo>/». В GitHub Actions доступна
- * переменная GITHUB_REPOSITORY вида «owner/repo» — берём имя оттуда,
- * чтобы ничего не приходилось править руками при переименовании репозитория.
- * Локально (и при своём домене) база остаётся «/».
+ * GitHub Pages serves the project at https://<user>.github.io/<repo>/, so in CI
+ * the base has to be "/<repo>/". GitHub Actions exposes GITHUB_REPOSITORY as
+ * "owner/repo", so the name is taken from there — renaming the repository needs
+ * no manual edits. Locally (and on a custom domain) the base stays "/".
  */
 function resolveBase(): string {
   const override = process.env.VITE_BASE
@@ -17,7 +16,7 @@ function resolveBase(): string {
   if (!repository) return '/'
 
   const name = repository.split('/')[1]
-  // user/organization pages (<user>.github.io) публикуются в корне
+  // user/organization pages (<user>.github.io) are served from the root
   return name.endsWith('.github.io') ? '/' : `/${name}/`
 }
 

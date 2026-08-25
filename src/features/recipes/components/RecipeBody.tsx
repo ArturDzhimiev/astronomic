@@ -9,7 +9,7 @@ interface Props {
   query?: string
 }
 
-/** Тело рецепта: состав, приготовление и вложенная мини-рецептура. */
+/** Recipe body: ingredients, method and the nested sub-recipe. */
 export function RecipeBody({ content, query }: Props) {
   const { t } = useLanguage()
 

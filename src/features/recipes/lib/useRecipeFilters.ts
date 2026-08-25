@@ -11,8 +11,8 @@ function parseTab(value: string | null): RecipeTab {
 }
 
 /**
- * Фильтры живут в URL: ссылку с результатом поиска можно скинуть коллеге,
- * а кнопка «назад» в браузере работает ожидаемо.
+ * Filters live in the URL: a link to a search result can be shared with a
+ * colleague, and the browser's back button behaves as expected.
  */
 export function useRecipeFilters() {
   const [searchParams, setSearchParams] = useSearchParams()

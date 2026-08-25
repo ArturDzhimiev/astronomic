@@ -4,7 +4,7 @@ import { LanguageContext, type LanguageContextValue } from './LanguageContext'
 export function useLanguage(): LanguageContextValue {
   const context = use(LanguageContext)
   if (!context) {
-    throw new Error('useLanguage должен вызываться внутри <LanguageProvider>')
+    throw new Error('useLanguage must be called inside <LanguageProvider>')
   }
   return context
 }

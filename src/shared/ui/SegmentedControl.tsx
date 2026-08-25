@@ -10,7 +10,7 @@ interface Props<T extends string> {
   value: T
   onChange: (value: T) => void
   label: string
-  /** `tabs` — разделы с подчёркиванием, `inline` — компактный список через точку. */
+  /** `tabs` — underlined sections, `inline` — a compact dot-separated list. */
   variant?: 'tabs' | 'inline'
 }
 

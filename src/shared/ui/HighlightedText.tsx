@@ -8,8 +8,8 @@ interface Props {
 }
 
 /**
- * Подсвечивает совпадения без dangerouslySetInnerHTML —
- * текст рецептов рендерится как обычные React-узлы.
+ * Highlights matches without dangerouslySetInnerHTML — recipe text is rendered
+ * as ordinary React nodes.
  */
 export function HighlightedText({ text, query = '' }: Props) {
   const ranges = query ? findMatches(text, query) : []

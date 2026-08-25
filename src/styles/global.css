@@ -56,7 +56,29 @@ a {
   flex-direction: column;
 }
 
-/* Мелкий разрядкой набранный служебный текст — повторяется по всему макету */
+/*
+ * Titles are set in lowercase like the logo, but with a capital first letter.
+ * ::first-letter also covers a leading quotation mark, so a title such as
+ * "«ГАНСИТО»" still gets its capital letter.
+ */
+.sentence-case {
+  text-transform: lowercase;
+}
+
+.sentence-case::first-letter {
+  text-transform: uppercase;
+}
+
+/*
+ * Capitalise the first letter only and leave the rest as authored: ingredients
+ * are already lowercase, and forcing lowercase would break brand names such as
+ * "сливки Lyncott".
+ */
+.capitalize-first::first-letter {
+  text-transform: uppercase;
+}
+
+/* Small letter-spaced utility text, reused across the layout */
 .overline {
   font-size: var(--text-xs);
   font-weight: 500;

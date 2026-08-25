@@ -1,4 +1,4 @@
-/** Инлайновые иконки — тонкие штрихи, без сторонних наборов и эмодзи. */
+/** Inline icons — thin strokes, no third-party sets and no emoji. */
 
 interface IconProps {
   className?: string

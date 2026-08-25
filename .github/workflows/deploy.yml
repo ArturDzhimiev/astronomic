@@ -5,13 +5,13 @@ on:
     branches: [main]
   workflow_dispatch:
 
-# Права, необходимые actions/deploy-pages
+# Permissions required by actions/deploy-pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Параллельные деплои не нужны: публикуем только последний коммит
+# No concurrent deploys: only the latest commit gets published
 concurrency:
   group: pages
   cancel-in-progress: true
@@ -32,7 +32,7 @@ jobs:
       - run: npm run lint
       - run: npm run typecheck
       - run: npm test
-      # base для Pages вычисляется в vite.config.ts из GITHUB_REPOSITORY
+      # The Pages base is derived from GITHUB_REPOSITORY in vite.config.ts
       - run: npm run build
 
       - uses: actions/configure-pages@v5
